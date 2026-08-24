@@ -104,7 +104,7 @@ The following must never be committed:
 - Unapproved research results, slides, posters, or code
 - Credentials, tokens, or private-repository links
 
-The complete `private_sources/` directory and original source filenames are ignored in `.gitignore`.
+The complete `private_sources/` directory is ignored in `.gitignore`.
 
 ## If a private file is accidentally committed
 
@@ -113,7 +113,7 @@ Removing the current file does **not** remove it from Git history.
 For an unpushed file, stop tracking the exact file and commit the removal:
 
 ```bash
-git rm --cached -- "private_sources/Resume_Kexin_Fu.pdf"
+git rm --cached -- "private_sources/private-source.pdf"
 git commit -m "Remove private source from tracking"
 ```
 

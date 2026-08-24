@@ -1,0 +1,59 @@
+---
+title: "Multi-Omics Survival Prediction in Breast Cancer"
+description: "ENAR DataFest 2026 winning project evaluating multi-omics survival prediction in breast cancer."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="award-badge">ENAR DataFest 2026 Winner</span><span class="type-pill">Competition project</span></div>
+
+## Overview
+
+Our GWU team evaluated whether integrating high-dimensional molecular information could improve breast-cancer survival prediction beyond traditional clinical variables. The project won first place at ENAR DataFest 2026.
+
+## Analytical problem
+
+Multi-omics data can add biological detail while also increasing dimensionality, instability, and the opportunity for overfitting. The central question was not simply whether a more complex model could fit the available data, but whether its predictive value held across validation settings.
+
+## Why it matters
+
+Responsible biomarker modeling requires evidence that additional complexity improves prediction in a repeatable way. Comparing clinical-only, single-omics, and integrated approaches helps separate occasional gains from dependable improvements.
+
+## My contribution
+
+I served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. The public record supports this leadership role; finer-grained authorship of individual code components is not claimed here.
+
+## Data and study design
+
+The competition used breast-cancer data from The Cancer Genome Atlas. Publicly disclosed inputs included clinical variables, mRNA expression, and DNA methylation. The team compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations.
+
+## Statistical methods
+
+The public description supports a systematic survival-prediction pipeline with preprocessing and quality checks, feature representation, model fitting, validation, and comparison across information sources. Specific model names and the exact final specification are omitted until the final materials are organized and approved.
+
+<div class="process-diagram" role="img" aria-label="Multi-omics survival-prediction pipeline from inputs through final submission">
+<div><span>01</span><strong>Multi-omics inputs</strong><small>Clinical · mRNA · DNA methylation</small></div>
+<div><span>02</span><strong>Preprocessing & quality checks</strong><small>Comparable analysis-ready inputs</small></div>
+<div><span>03</span><strong>Feature representation</strong><small>Clinical, single-omics, multi-omics</small></div>
+<div><span>04</span><strong>Survival-prediction models</strong><small>Candidate specifications compared</small></div>
+<div><span>05</span><strong>Validation & comparison</strong><small>Stability across validation settings</small></div>
+<div><span>06</span><strong>Team submission</strong><small>Interpretation and communication</small></div>
+</div>
+
+## Results and practical contribution
+
+The official GWSPH project description reports occasional gains from omics-based models in some validation settings, but not consistent improvement overall. The main practical lesson was that added model complexity does not automatically yield better prediction or generalizability; validation, uncertainty, and interpretation remained central.
+
+## Limitations
+
+This was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. The available development repository does not represent the final submission and is therefore not presented as definitive project code. The work should not be interpreted as a clinically validated tool.
+
+## Outputs
+
+<div class="output-panel">
+<a href="https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/student-spotlight"><strong>Read the official project feature</strong><span>GWSPH Student Spotlight</span></a>
+<div><strong>Final slides and code</strong><span class="coming-soon">Available after organization and approval</span></div>
+</div>
+
+## Reproducibility and availability
+
+The public summary is limited to facts reported by GWSPH and the approved résumé. A mid-competition code repository exists but is not linked because it is incomplete and does not reflect the final version.

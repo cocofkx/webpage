@@ -1,0 +1,88 @@
+---
+title: "Research"
+description: "Project-first portfolio spanning missing and complex data, time-to-event analysis, disease progression, high-dimensional prediction, and biomarker analytics."
+toc: true
+---
+
+My research centers on statistical questions that recur across biomedical applications: how to use incomplete information responsibly, how to characterize progression over time, and how to evaluate high-dimensional predictors without overstating what they add. Each project below distinguishes its research type, my documented contribution, and the evidence currently available.
+
+## Missing & Complex Data
+
+<article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Methodological research</span><span class="status-pill">Ongoing</span></div>
+<h3>Functional Regression-Based Multiple Imputation for Mixed Missing Data</h3>
+<p>Development and simulation-based evaluation of multiple-imputation methods for incomplete functional and scalar variables.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Functional regression MI · Simulation</span></div><div><strong>Application</strong><span>Mixed clinical and functional biomedical data</span></div></div>
+<div class="output-row"><span>Poster</span><span>Talk</span><span>Award</span><span>Interactive demo</span></div>
+<a class="card-link" href="missing-data.html">View project <span aria-hidden="true">→</span></a>
+</article>
+
+## Time-to-Event & Disease Progression
+
+<div class="research-stack">
+<article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Peer-reviewed study</span><span class="status-pill status-published">Published</span></div>
+<h3>Survival and Clinical Progression in Barth Syndrome</h3>
+<p>Natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Kaplan–Meier estimation · Cox modeling</span></div><div><strong>Application</strong><span>Barth Syndrome Foundation datasets</span></div></div>
+<div class="output-row"><span>Publication</span><span>Code</span><span>Analysis plan</span></div>
+<a class="card-link" href="barth-syndrome.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Peer-reviewed prospective cohort study</span><span class="status-pill status-published">Published</span></div>
+<h3>Influenza Vaccination and Neurodegenerative Disease Risk</h3>
+<p>A UK Biobank analysis of time-varying influenza vaccination and incident dementia and Parkinson's disease.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Time-varying Cox regression · Sensitivity analysis</span></div><div><strong>Application</strong><span>Longitudinal UK Biobank cohort</span></div></div>
+<div class="output-row"><span>Publication</span><span>Open access</span></div>
+<a class="card-link" href="influenza-neurodegeneration.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Exploratory master's thesis</span><span class="status-pill">Award-recognized</span></div>
+<h3>Alzheimer's Disease Progression and Clinical-Trial Design</h3>
+<p>An exploratory comparison of autopsy-derived pseudo-longitudinal progression probabilities with longitudinal ADNI-3 data.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Ordinal logistic modeling · Progression probability</span></div><div><strong>Application</strong><span>NACC autopsy and ADNI-3 data</span></div></div>
+<div class="output-row"><span>Thesis</span><span>Award</span><span>Study-design visual</span></div>
+<a class="card-link" href="ad-progression-thesis.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Conference poster</span><span class="status-pill">Clinical outcomes</span></div>
+<h3>Cervical Polypectomy During Pregnancy</h3>
+<p>A retrospective comparison of surgical and obstetric outcomes using survival curves and regression modeling.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Kaplan–Meier curves · Cox regression</span></div><div><strong>Application</strong><span>Pregnancy-related surgical outcomes</span></div></div>
+<div class="output-row"><span>ENAR 2025 poster</span></div>
+<a class="card-link" href="cervical-polypectomy.html">View project <span aria-hidden="true">→</span></a>
+</article>
+</div>
+
+## High-Dimensional Prediction & Biomarker Analytics
+
+<div class="research-stack">
+<article class="research-list-card award-card-wide">
+<div class="award-badge">ENAR DataFest 2026 Winner</div>
+<div class="card-topline"><span class="type-pill">Competition project</span><span class="status-pill">First place</span></div>
+<h3>Multi-Omics Survival Prediction in Breast Cancer</h3>
+<p>A systematic evaluation of clinical, single-omics, and multi-omics approaches to breast-cancer survival prediction.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Survival prediction · Model validation</span></div><div><strong>Application</strong><span>TCGA breast-cancer data</span></div></div>
+<div class="output-row"><span>Award</span><span>Official feature</span><span>Pipeline visual</span></div>
+<a class="card-link" href="datafest-multiomics.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Ongoing collaborative research</span><span class="status-pill">Public detail limited</span></div>
+<h3>Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis</h3>
+<p>Statistical analysis planning and quality-control assessment for longitudinal biomarker research within DPPOS.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Longitudinal planning · Biomarker QC</span></div><div><strong>Application</strong><span>MCI and AD/ADRD biomarkers in type 2 diabetes</span></div></div>
+<div class="output-row"><span>Ongoing</span><span>Conceptual workflow</span></div>
+<a class="card-link" href="biomarker-analytics.html">View project <span aria-hidden="true">→</span></a>
+</article>
+</div>
+
+## Other Selected Collaborations
+
+<div class="compact-collab-grid">
+<article><h3>NICHE Program Evaluation</h3><p>Primary biostatistical analysis of aging-care implementation and urban-rural disparities across U.S. hospitals.</p><a href="../assets/docs/Howard_Meyers_2024_NICHE_Poster.pdf">View conference poster</a></article>
+<article><h3>Stronger Together Peer Mentoring</h3><p>Implementation-science collaboration evaluating feasibility and adaptability of peer support for cancer patients in Viet Nam.</p><a href="../assets/docs/IPOS_2024_Stronger_Together_Poster.pdf">View conference poster</a></article>
+</div>
+
+## Additional Publications & Presentations
+
+**Low-intensity pulsed ultrasound in postoperative fracture healing: Current research landscape and hotspot analysis.** Co-author; research-landscape publication in the *Asian Journal of Surgery* (2025). [Read publication](https://doi.org/10.1016/j.asjsur.2025.06.198).

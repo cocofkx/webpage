@@ -1,0 +1,76 @@
+---
+title: "Functional Regression-Based Multiple Imputation for Mixed Missing Data"
+description: "Methodological research on multiple imputation for incomplete functional and scalar biomedical data."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="type-pill">Methodological research</span><span class="status-pill">Ongoing</span></div>
+
+## Overview
+
+I am developing extensions of regression-based multiple imputation for studies that contain both scalar measurements and functional observations such as neuroimaging, fMRI, or EEG trajectories. The work adds a functional-principal-component-regression approach for imputing missing scalar variables within the fregMICE framework and evaluates the method through large-scale simulation.
+
+## Research problem
+
+Complete-case analysis can discard substantial information when high-cost multimodal data are incomplete. Existing multiple-imputation practice is mature for scalar data, but mixed missingness across functional and scalar variables creates additional modeling and uncertainty challenges.
+
+## Why it matters
+
+Biomedical studies increasingly collect densely measured functions alongside demographic, treatment, and clinical variables. An imputation strategy that uses both information types may reduce information loss while respecting uncertainty—provided its performance and limitations are evaluated carefully.
+
+## My contribution
+
+I developed the functional-principal-component-based extension, designed and implemented simulation studies, used GW's Pegasus high-performance computing environment for reproducible large-scale evaluation, and presented the work at GWSPH Research Day 2026.
+
+## Data and study design
+
+The current evidence is simulation-based. The approved poster evaluates samples of 100 and 350 under 10%, 20%, and 30% missingness, with scalar-only and mixed-missingness scenarios and both smoother and bumpier functional settings. The JSM abstract also describes an application to a study combining clinical and imaging data; public reporting here remains limited to the approved abstract.
+
+## Statistical methods
+
+- Functional regression multiple imputation by chained equations (fregMICE)
+- FPCR- and penalized-functional-regression approaches for missing scalar variables
+- Penalized function-on-function regression for missing functional responses
+- Rubin's-rule pooling and comparison of alternative covariance estimators
+- Simulation evaluation using bias, error, coverage, interval width, and computation time
+
+## Results and practical contribution
+
+The approved poster reports that the functional-regression imputation approaches generally tracked the simulated targets more closely than complete-case analysis, while performance became more difficult at higher missingness and near complex functional features. It also identifies sensitivity to the covariance estimator and emphasizes that simulation findings still require confirmation in real-data applications.
+
+## Limitations
+
+Current conclusions are based primarily on designed simulation settings. The range of functional shapes, missing-data mechanisms, covariance estimators, and downstream models cannot represent every biomedical application. Real-data performance and computational scaling require further study.
+
+## Interactive simulation explorer
+
+<div class="notice synthetic-notice"><strong>Demonstration using synthetic data.</strong> Final research results will be added only after review and approval.</div>
+
+<div id="simulation-explorer" class="sim-explorer" data-csv="../data/missing_data_simulation_demo.csv">
+<form class="sim-controls" aria-label="Simulation explorer controls">
+<label>Sample size<select id="sample-size"><option value="100">100</option><option value="350">350</option></select></label>
+<label>Missingness<select id="missing-rate"><option value="10">10%</option><option value="20">20%</option><option value="30">30%</option></select></label>
+<label>Mechanism<select id="missing-mechanism"><option value="MCAR">MCAR</option><option value="MAR">MAR</option></select></label>
+<label>Data type<select id="data-type"><option value="mixed">Mixed functional + scalar</option><option value="scalar">Scalar</option></select></label>
+<label>Metric<select id="metric"><option value="bias">Absolute bias</option><option value="rmse" selected>RMSE</option><option value="coverage">Coverage</option><option value="runtime">Runtime</option></select></label>
+</form>
+<fieldset class="method-controls"><legend>Methods shown</legend><label><input type="checkbox" value="Complete case" checked> Complete case</label><label><input type="checkbox" value="FPCR MI" checked> FPCR MI</label><label><input type="checkbox" value="PFR MI" checked> PFR MI</label></fieldset>
+<div class="chart-wrap"><canvas id="simulation-chart" role="img" aria-label="Interactive chart comparing illustrative method performance"></canvas></div>
+<p id="chart-summary" class="chart-summary" aria-live="polite"></p>
+<details class="table-fallback" open><summary>Accessible data table</summary><div class="table-scroll"><table id="simulation-table"><thead><tr><th>Method</th><th>Bias</th><th>RMSE</th><th>Coverage</th><th>Runtime</th></tr></thead><tbody></tbody></table></div></details>
+</div>
+
+## Outputs
+
+<div class="output-panel">
+<a href="../assets/docs/GW_Research_Day_2026_Poster.pdf"><strong>View GW Research Day poster</strong><span>Approved public PDF</span></a>
+<a href="../assets/docs/JSM_2026_Abstract.pdf"><strong>View JSM 2026 abstract</strong><span>Contributed paper abstract</span></a>
+<a href="https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics"><strong>View Research Day recognition</strong><span>GWSPH departmental award record</span></a>
+<a href="#simulation-explorer"><strong>Explore synthetic simulation</strong><span>Interactive illustrative prototype</span></a>
+</div>
+
+## Reproducibility and availability
+
+The public explorer reads a precomputed CSV and does not run a large simulation in the browser. Synthetic values can later be replaced with an approved aggregate simulation summary without changing the interface. Research code and the final technical appendix are not yet public.
+
+<script src="../assets/js/simulation-explorer.js" defer></script>

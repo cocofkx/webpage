@@ -1,0 +1,53 @@
+---
+title: "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis"
+description: "Ongoing collaborative DPPOS research in longitudinal proteomics, biomarker quality control, and AD/ADRD analysis planning."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="type-pill">Ongoing collaborative research</span><span class="status-pill">Public description limited</span></div>
+
+<div class="notice ongoing-notice"><strong>Ongoing research.</strong> Public description is limited to approved methodological and analytical responsibilities.</div>
+
+## Overview
+
+Within the DPPOS study at the GWU Biostatistics Center, I contribute to longitudinal proteomic analysis planning and extracellular-vesicle biomarker quality-control assessment related to MCI and AD/ADRD research in type 2 diabetes.
+
+## Analytical problem
+
+Biomarker quality-control decisions can change downstream analytic samples, measurement distributions, and the interpretation of associations. Longitudinal biomarker work also requires a statistical analysis plan that connects repeated measurements, covariate timing, missingness, and sensitivity analyses.
+
+## Why it matters
+
+Making quality-control consequences explicit before interpreting downstream models strengthens reproducibility and helps collaborators distinguish biological signals from analytical artifacts.
+
+## My contribution
+
+I lead statistical analysis plan development for longitudinal proteomic analyses and evaluate extracellular-vesicle biomarker quality control and its effect on downstream analyses in neuronal and systemic insulin-signaling contexts.
+
+## Data and study design
+
+Public detail is intentionally high-level. The work involves longitudinal biomarker information within DPPOS and research questions related to cognitive impairment and AD/ADRD. Participant-level data, internal variables, sponsor materials, and internal workflow documents are not disclosed.
+
+## Statistical approach
+
+Current responsibilities include prespecifying analysis populations and timing, documenting quality-control decisions, planning longitudinal association analyses, and identifying sensitivity analyses that evaluate the impact of biomarker QC.
+
+<div class="process-diagram compact-flow" role="img" aria-label="Conceptual workflow for biomarker quality control and longitudinal analysis planning">
+<div><span>01</span><strong>Biomarker data</strong><small>Approved analysis inputs</small></div>
+<div><span>02</span><strong>QC assessment</strong><small>Measurement and sample checks</small></div>
+<div><span>03</span><strong>Analysis planning</strong><small>Longitudinal estimands and timing</small></div>
+<div><span>04</span><strong>Association analysis</strong><small>Prespecified downstream models</small></div>
+<div><span>05</span><strong>Sensitivity & interpretation</strong><small>Assess QC-dependent conclusions</small></div>
+</div>
+
+## Results and limitations
+
+No preliminary results are reported. The page describes analytical responsibilities, not findings. Public interpretation will remain limited until the study team approves specific outputs and acknowledgments.
+
+## Outputs
+
+<div class="output-panel"><div><strong>Public output</strong><span class="coming-soon">Pending study-team review and approval</span></div></div>
+
+## Reproducibility and availability
+
+Internal statistical analysis plans, participant-level records, variable names, and research results are not available through this site.

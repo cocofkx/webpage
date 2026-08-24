@@ -1,0 +1,59 @@
+---
+title: "Survival and Clinical Progression in Barth Syndrome"
+description: "Peer-reviewed rare-disease natural-history research using cross-sectional and longitudinal Barth Syndrome Foundation data."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="type-pill">Peer-reviewed collaborative study</span><span class="status-pill status-published">Published 2026</span></div>
+
+## Overview
+
+This study characterized survival, mortality risk, and clinical manifestations across the lifespan for Barth syndrome, an ultra-rare, life-limiting genetic disorder. It combined the Barth Syndrome Foundation's larger intake dataset with its longitudinal patient/caregiver registry.
+
+## Research problem
+
+Formal analyses of Barth syndrome survival and clinical progression have been limited by the rarity of the condition, small longitudinal samples, staggered registry entry, and incomplete information for some risk factors.
+
+## Why it matters
+
+Natural-history evidence can help clinical collaborators recognize periods of elevated risk, understand how manifestations change with age, and identify priorities for care and future research—while keeping uncertainty visible.
+
+## My contribution
+
+I collaborated with the Barth Syndrome Foundation and NYU Langone and co-led the statistical design and analysis exploring risk factors for survival and symptomology. I also contributed to translating statistical results for clinical and foundation collaborators and am first author of the publication.
+
+## Data and study design
+
+Two related cohorts were analyzed:
+
+- An overall cross-sectional cohort of 502 individuals from the Foundation's intake dataset, representing more than 80% of known global cases at the time of analysis.
+- A longitudinal registry cohort with up to 11 years of follow-up and more detailed patient/caregiver-reported clinical information.
+
+## Statistical methods
+
+- Descriptive characterization of demographic and clinical manifestations
+- Kaplan–Meier survival estimation for the overall and longitudinal cohorts
+- Risk-set adjustment for staggered entry in the registry cohort
+- Cox proportional hazards models for mortality-related outcomes
+- Multiple imputation by chained equations for selected incomplete risk factors
+- Sensitivity analyses separating confirmed and suspected cases
+
+## Results and practical contribution
+
+The peer-reviewed publication provides the most comprehensive longitudinal assessment of Barth syndrome survival and clinical-progression burden to date. The study identified early childhood as a period of substantial mortality risk and described increasing clinical burden across the lifespan. Results are reported with cohort-specific caveats rather than treated as population-certainty estimates.
+
+## Limitations
+
+The larger intake cohort is susceptible to survival and ascertainment bias because follow-up time was not consistently available. The longitudinal cohort was smaller, contained few survival events, and had limited repeat symptom surveys, producing wide uncertainty for some estimates. Self- or caregiver-reported clinical information and missing data also constrain interpretation.
+
+## Outputs
+
+<div class="output-panel">
+<a href="https://doi.org/10.1002/jimd.70189"><strong>Read the publication</strong><span>Journal of Inherited Metabolic Disease · Open access</span></a>
+<a href="https://github.com/cocofkx/BTHS-Survival"><strong>View analysis code</strong><span>Public GitHub repository</span></a>
+<a href="https://osf.io/5wf4m"><strong>View statistical analysis plan</strong><span>OSF preregistration</span></a>
+</div>
+
+## Reproducibility and availability
+
+The public repository links the statistical plan and R analysis code. Participant-level registry data are not published through this portfolio.

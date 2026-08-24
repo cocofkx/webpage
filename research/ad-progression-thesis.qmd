@@ -1,0 +1,65 @@
+---
+title: "Alzheimer's Disease Progression and Clinical-Trial Design"
+subtitle: "Neuropathological Time-dependent Progression Probability of Alzheimer's Disease: Addressing Underrepresentation and Optimizing Trial Efficiency"
+description: "Exploratory master's thesis comparing pseudo-longitudinal NACC autopsy modeling with longitudinal ADNI-3 data."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="type-pill">Exploratory master's thesis</span><span class="status-pill">Award-recognized · Not peer-reviewed</span></div>
+
+## Overview
+
+This exploratory thesis investigated whether autopsy-derived neuropathological staging could inform time-dependent Alzheimer's disease progression probabilities and clinical-trial planning. It compared a pseudo-longitudinal approach with longitudinal imaging data and identified important limitations involving early-stage prediction, measurement, sample size, and generalizability.
+
+## Research questions
+
+1. What are time-dependent pathological progression probabilities after accounting for demographic characteristics and APOE genotype?
+2. How might progression models inform theoretical sample-size calculations for trial populations with specified characteristics?
+
+## Why it matters
+
+Longitudinal neuropathological measurement is difficult, and trial populations often underrepresent important groups. Autopsy data provide detailed endpoint staging but require strong assumptions when used to reconstruct progression over time.
+
+## My contribution
+
+I developed and presented this exploratory MS thesis analysis under the supervision of Professor Rebecca Betensky, comparing pseudo-longitudinal and longitudinal approaches and translating the model outputs into theoretical trial-planning calculations.
+
+## Data and study design
+
+The work used NACC autopsy data as a cross-sectional source and ADNI-3 as a longitudinal source. The NACC analysis modeled endpoint Braak stage and CERAD score using disease-duration and participant characteristics. The ADNI-3 analysis used repeatedly observed imaging-derived progression classifications for comparison.
+
+<div class="process-diagram thesis-flow" role="img" aria-label="Study design linking NACC autopsy data to ordinal stage modeling, pseudo-longitudinal probabilities, ADNI-3 comparison, and exploratory trial calculations">
+<div><span>01</span><strong>NACC autopsy data</strong><small>Cross-sectional endpoint staging</small></div>
+<div><span>02</span><strong>Ordinal stage modeling</strong><small>Braak stage and CERAD score</small></div>
+<div><span>03</span><strong>Pseudo-longitudinal probabilities</strong><small>Time-dependent exploratory derivation</small></div>
+<div><span>04</span><strong>ADNI-3 comparison</strong><small>Longitudinal imaging-derived progression</small></div>
+<div><span>05</span><strong>Trial calculations</strong><small>Theoretical sample-size scenarios</small></div>
+</div>
+
+## Statistical methods
+
+- Cumulative ordinal logistic models for NACC neuropathological stages
+- Logistic regression for ADNI-3 progression classifications
+- Derivation of time-dependent progression probabilities under simplifying transition assumptions
+- Consideration of education, race/ethnicity, sex, age, APOE genotype, and cognitive status
+- Theoretical sample-size calculations with fixed power and effect-size inputs
+
+## Results and practical contribution
+
+The project demonstrated a workflow for comparing autopsy-derived pseudo-longitudinal estimates with a longitudinal source and for translating model scenarios into trial-planning calculations. It did **not** establish external validation, clinical readiness, or proven gains in trial efficiency.
+
+## Limitations
+
+- The look-backward approach may be biased for early progression because premortem information is limited and the manner of death is not modeled.
+- The simplifying assumption that individuals progress no more than one pathological stage per time unit may miss faster progression.
+- PET processing, threshold selection, and early-stage sensitivity can introduce measurement and classification error.
+- The ADNI-3 comparison had limited sample size and waves, particularly for later progression.
+- Racial, cognitive-status, education, and income imbalances in NACC and ADNI constrain representativeness and generalizability.
+
+## Outputs
+
+<div class="output-panel"><a href="https://publichealth.nyu.edu/department/biostatistics/current-students-and-alumni/biostatistics-student-theses"><strong>View NYU thesis recognition</strong><span>Innovative topic or approach · Class of 2024</span></a><div><strong>Thesis slides</strong><span class="coming-soon">Private source; public PDF not posted</span></div></div>
+
+## Reproducibility and availability
+
+The public page presents the study design and acknowledged limitations without redistributing NACC or ADNI data or the private thesis deck. No validated prediction tool is offered.

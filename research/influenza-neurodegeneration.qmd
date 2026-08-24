@@ -1,0 +1,51 @@
+---
+title: "Influenza Vaccination and Neurodegenerative Disease Risk"
+description: "Peer-reviewed prospective UK Biobank cohort study using time-varying survival modeling."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="type-pill">Peer-reviewed prospective cohort study</span><span class="status-pill status-published">npj Vaccines · 2024</span></div>
+
+## Overview
+
+This study evaluated the association between influenza vaccination and incident dementia and Parkinson's disease among adults aged 60 years or older in the UK Biobank.
+
+## Research problem
+
+Vaccination status, health factors, medications, and other covariates can change during follow-up. Treating repeatedly observed information as if it were fixed at baseline can obscure the timing of exposure and confounding.
+
+## Why it matters
+
+A longitudinal design with time-updated information can better represent annual vaccination patterns and later neurodegenerative outcomes, while sensitivity analyses help make the limits of an observational association more transparent.
+
+## My contribution
+
+I contributed as a co-author. The publication and résumé do not assign a more specific individual contribution, so no finer-grained role is claimed here.
+
+## Data and study design
+
+The analysis used linked UK Biobank primary-care, hospital, death-registry, and baseline data. It employed a prospective new-user design, defined influenza vaccination as a time-varying exposure measured in yearly intervals, and followed participants for incident dementia and Parkinson's disease outcomes.
+
+## Statistical methods
+
+- Multivariable time-varying Cox regression
+- Adjustment for baseline and repeatedly measured covariates
+- Robust sandwich-type variance estimation for repeated measures
+- Secondary dose-response and subgroup analyses
+- Sensitivity analyses including marginal structural and competing-risk models
+
+## Results and practical contribution
+
+The publication reported an association between influenza vaccination and lower incident dementia risk, but not Parkinson's disease incidence, after adjustment. Because this is observational evidence, the finding should not be interpreted as proving a causal preventive effect.
+
+## Limitations
+
+The authors noted limitations in diagnostic accuracy for dementia subtypes and the possibility of residual or unmeasured confounding. Selection into the primary-care-linked cohort and exposure/outcome classification also affect generalizability.
+
+## Outputs
+
+<div class="output-panel"><a href="https://doi.org/10.1038/s41541-024-00841-z"><strong>Read the publication</strong><span>npj Vaccines · Open access</span></a></div>
+
+## Reproducibility and availability
+
+The article reports UK Biobank access procedures and links the study code through its code-availability statement. No participant-level data are redistributed here.

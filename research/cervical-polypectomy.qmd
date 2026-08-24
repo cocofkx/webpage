@@ -1,0 +1,51 @@
+---
+title: "Cervical Polypectomy During Pregnancy"
+subtitle: "Comparison of Surgical and Obstetric Outcomes Between Two Types of Cervical Polypectomy During Pregnancy"
+description: "ENAR 2025 clinical-outcomes poster comparing traditional and vaginoscopy polypectomy."
+toc: true
+---
+
+<div class="project-hero-meta"><span class="type-pill">Conference poster</span><span class="status-pill">ENAR 2025</span></div>
+
+## Overview
+
+This retrospective clinical-outcomes study compared traditional polypectomy with vaginoscopy polypectomy during pregnancy, considering both surgical outcomes and time to preterm birth.
+
+## Analytical problem
+
+The study asked whether outcomes differed by surgical approach, whether effects varied between cervical and decidual polyps, and which demographic, clinical, or postoperative factors were associated with preterm birth.
+
+## Why it matters
+
+The choice of surgical approach during pregnancy requires attention to both procedural outcomes and obstetric follow-up. Observational comparisons must also account for baseline differences and time-to-event information.
+
+## My contribution
+
+I was the presenting author of the ENAR 2025 poster. The public poster does not assign finer-grained individual responsibilities, so no additional contribution claim is made here.
+
+## Data and study design
+
+The approved poster describes a retrospective cohort of pregnant patients treated between October 2023 and July 2024 at Jiangxi Maternal & Child Health Hospital. Data included baseline characteristics, surgical measures, postoperative complications, and obstetric follow-up.
+
+## Statistical methods
+
+- Descriptive comparisons using chi-square, t-test, or Wilcoxon procedures as appropriate
+- Kaplan–Meier curves for gestational age at delivery
+- Cox proportional hazards models for preterm birth risk
+- Adjusted modeling using clinically relevant covariates and backward variable selection
+
+## Results and practical contribution
+
+The poster reported no significant difference in the total count of adverse events between surgical groups. Vaginoscopy polypectomy was associated with shorter procedure time and lower bleeding in selected comparisons, while recurrent bleeding and high white-blood-cell count were associated with preterm-birth risk. These observational findings should not be interpreted as randomized comparative-effectiveness evidence.
+
+## Limitations
+
+The study was retrospective and relatively small. Potential confounding, subgroup instability, selection into treatment, and the censoring assumptions used for time-to-event analysis limit causal and clinical interpretation.
+
+## Outputs
+
+<div class="output-panel"><a href="../assets/docs/ENAR_2025_Cervical_Polypectomy_Poster.pdf"><strong>View ENAR 2025 poster</strong><span>Approved public PDF</span></a></div>
+
+## Reproducibility and availability
+
+Only the approved conference poster is public. No participant-level data or analysis dataset is distributed.
