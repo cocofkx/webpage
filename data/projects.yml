@@ -1,0 +1,13 @@
+featured:
+  - id: missing-data
+    title: "Functional Regression-Based Multiple Imputation"
+    type: "Methodological research"
+    methods: ["Functional multiple imputation", "Simulation"]
+  - id: datafest-multiomics
+    title: "Multi-Omics Survival Prediction in Breast Cancer"
+    type: "Competition project"
+    methods: ["Survival prediction", "Multi-omics integration"]
+  - id: barth-syndrome
+    title: "Survival and Clinical Progression in Barth Syndrome"
+    type: "Peer-reviewed study"
+    methods: ["Survival analysis", "Natural-history research"]
