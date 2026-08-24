@@ -1,0 +1,17 @@
+# Confidential source material - never commit or publish
+private_sources/
+Resume_Kexin_Fu.pdf
+Kexin Fu_Thesis presentation.pdf
+jsm_2026_abstract.pdf
+
+# Quarto output and local tooling
+_site/
+.quarto/
+.DS_Store
+work/
+tmp/
+outputs/
+
+
+/.quarto/
+**/*.quarto_ipynb

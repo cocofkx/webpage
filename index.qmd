@@ -1,0 +1,76 @@
+---
+title: "Kexin Fu"
+description: "PhD researcher developing statistical methods for missing, longitudinal, high-dimensional, and time-to-event data."
+page-layout: full
+toc: false
+image: assets/img/social-preview.png
+---
+
+<style>#title-block-header{display:none}</style>
+
+<section class="hero-shell" aria-labelledby="hero-title">
+<div class="hero-copy">
+<p class="eyebrow">Biostatistics · Health Data Science</p>
+<h1 id="hero-title">Kexin Fu</h1>
+<p class="hero-role">PhD Researcher in Biostatistics and Health Data Science</p>
+<p class="hero-place">George Washington University, Milken Institute School of Public Health · Washington, DC</p>
+<p class="hero-intro">I develop and apply statistical methods for missing, longitudinal, high-dimensional, and time-to-event data. My work combines methodological development, simulation and high-performance computing, predictive modeling, and collaborative biomedical research.</p>
+<p class="opportunity-line">Seeking Summer 2027 PhD-level internships in biostatistics, statistical data science, and quantitative research.</p>
+<div class="button-row" aria-label="Primary links">
+<a class="button button-primary" href="research/index.html">View research</a>
+<a class="button button-secondary" href="resume.html">View résumé</a>
+<a class="button button-quiet" href="mailto:kexin.fu@gwu.edu">Email</a>
+<a class="button button-quiet" href="https://www.linkedin.com/in/kexin-fu-5a3354340">LinkedIn</a>
+<a class="button button-quiet" href="https://github.com/cocofkx">GitHub</a>
+</div>
+</div>
+<figure class="hero-portrait">
+<img src="assets/img/headshot-source.jpeg" alt="Professional headshot of Kexin Fu" width="520" height="650">
+</figure>
+</section>
+
+<section class="section-shell featured-section" aria-labelledby="featured-title">
+<div class="section-heading-row">
+<div>
+<p class="eyebrow">Selected work</p>
+<h2 id="featured-title">Featured research</h2>
+</div>
+<a class="text-link" href="research/index.html">See all research <span aria-hidden="true">→</span></a>
+</div>
+<div class="project-grid project-grid-three">
+<article class="project-card accent-teal">
+<p class="card-kicker">Methodological research</p>
+<h3>Functional Regression-Based Multiple Imputation</h3>
+<p>Extending multiple imputation to mixed incomplete functional and scalar data.</p>
+<div class="method-row"><span>Functional MI</span><span>Simulation</span></div>
+<p class="evidence-line">GWSPH Research Day prize · JSM 2026</p>
+<a class="card-link" href="research/missing-data.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="project-card featured-award">
+<div class="award-badge">ENAR DataFest 2026 Winner</div>
+<p class="card-kicker">Competition project</p>
+<h3>Multi-Omics Survival Prediction in Breast Cancer</h3>
+<p>Evaluating whether high-dimensional omics added stable predictive value beyond clinical information.</p>
+<div class="method-row"><span>Survival prediction</span><span>Multi-omics</span></div>
+<p class="evidence-line">GWU team leader · First place</p>
+<a class="card-link" href="research/datafest-multiomics.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="project-card accent-navy">
+<p class="card-kicker">Peer-reviewed study</p>
+<h3>Survival and Clinical Progression in Barth Syndrome</h3>
+<p>Rare-disease natural-history research spanning survival and clinical progression.</p>
+<div class="method-row"><span>Survival analysis</span><span>Natural history</span></div>
+<p class="evidence-line">Journal of Inherited Metabolic Disease · 2026</p>
+<a class="card-link" href="research/barth-syndrome.html">View project <span aria-hidden="true">→</span></a>
+</article>
+</div>
+</section>
+
+<section class="recognition-band" aria-label="Selected recognition">
+<span class="recognition-label">Selected recognition</span>
+<span>GWSPH Research Day First Place</span>
+<span aria-hidden="true">·</span>
+<strong>ENAR DataFest Winner</strong>
+<span aria-hidden="true">·</span>
+<span>NYU Thesis Recognition Award</span>
+</section>

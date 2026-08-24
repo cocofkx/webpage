@@ -1,0 +1,48 @@
+---
+title: "Résumé"
+description: "Public résumé for Kexin Fu, PhD researcher in biostatistics and health data science."
+toc: false
+---
+
+<div class="resume-intro">
+<p>A concise public résumé highlighting education, research experience, statistical tools, publications, presentations, awards, and leadership. The downloadable version excludes my phone number and any exact address.</p>
+<a class="button button-primary" href="assets/docs/Kexin_Fu_Resume_Public.pdf">Download public résumé</a>
+</div>
+
+## Education
+
+**George Washington University, Milken Institute School of Public Health** · 2024–present
+PhD in Biomedical and Health Data Science, Biostatistics track
+
+**New York University, School of Global Public Health** · 2022–2024
+MS in Biostatistics
+
+## Selected experience
+
+**Part-time Biostatistician, DPPOS Study, GWU Biostatistics Center** · 2024–present
+Functional regression-based multiple imputation; longitudinal proteomic analysis planning; extracellular-vesicle biomarker quality control.
+
+**Part-time Biostatistical Consultant, BC3, New York University** · 2024–2025
+Statistical design and analysis for rare-disease survival research and aging-care implementation evaluation.
+
+**Course Assistant and Graduate Mentor, New York University** · 2023–2024
+Supported graduate biostatistics courses and mentored undergraduate aging-research projects.
+
+## Technical skills
+
+**Programming:** R · Python · SQL · SAS
+**Computing and research tools:** HPC Pegasus · AWS · Google Colab · EAST · ArcGIS Pro
+
+## Selected publications
+
+1. Fu K, Huang Y, Bowen V, et al. “Survival and Clinical Progression in Barth Syndrome: Insights From the Barth Syndrome Foundation's Database of 502 Affected Individuals.” *Journal of Inherited Metabolic Disease*. 2026. [Read publication](https://doi.org/10.1002/jimd.70189).
+2. Zhao H, Zhou X, Fu K, et al. “Prospective cohort study evaluating the association between influenza vaccination and neurodegenerative diseases.” *npj Vaccines*. 2024. [Read publication](https://doi.org/10.1038/s41541-024-00841-z).
+3. Wan L, Geng F, Fu K, Chen W. “Low-intensity pulsed ultrasound in postoperative fracture healing: Current research landscape and hotspot analysis.” *Asian Journal of Surgery*. 2025. [Read publication](https://doi.org/10.1016/j.asjsur.2025.06.198).
+
+## Selected presentations and awards
+
+- Functional Regression-Based Multiple Imputation for Mixed Missing Data · GWSPH Research Day poster and prize, 2026
+- Functional Principal Components-Based Multiple Imputation for Functional Data · JSM contributed paper, 2026
+- Multi-Omics Survival Prediction in Breast Cancer · ENAR DataFest winning project, 2026
+- Comparison of Surgical and Obstetric Outcomes Between Two Types of Cervical Polypectomy During Pregnancy · ENAR poster, 2025
+- NYU Thesis Recognition Award, Innovative Topic or Approach · 2024

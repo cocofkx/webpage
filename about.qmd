@@ -1,0 +1,57 @@
+---
+title: "Professional Background"
+description: "Education, research experience, teaching, leadership, honors, and technical tools."
+toc: true
+---
+
+## Biography
+
+I am a PhD researcher in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My work focuses on statistical problems that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. I pair methodological development with simulation, reproducible computation, and close collaboration with clinical and scientific teams.
+
+My current work at the GWU Biostatistics Center includes functional regression-based multiple imputation and analysis planning for longitudinal biomarker research within DPPOS. Earlier collaborations at NYU included rare-disease survival research, aging-care implementation, and public-health studies using longitudinal cohort data.
+
+## Education
+
+<div class="timeline-list">
+<div class="timeline-item"><div class="timeline-date">2024–present</div><div><h3>PhD, Biomedical and Health Data Science</h3><p>Biostatistics track · George Washington University, Milken Institute School of Public Health</p></div></div>
+<div class="timeline-item"><div class="timeline-date">2022–2024</div><div><h3>MS, Biostatistics</h3><p>New York University, School of Global Public Health</p></div></div>
+</div>
+
+## Selected research and professional experience
+
+**Part-time Biostatistician, DPPOS Study · GWU Biostatistics Center**
+*October 2024–present*
+Developing functional principal component-based multiple-imputation methods; leading statistical analysis planning for longitudinal proteomic analyses; and evaluating extracellular-vesicle biomarker quality control and downstream analytical impact.
+
+**Part-time Biostatistical Consultant · BC3, New York University**
+*January 2024–November 2025*
+Co-led statistical design and analysis for Barth syndrome survival and clinical-progression research and served as primary biostatistician for a NICHE program evaluation.
+
+**Business Analyst Intern · Baidu AI Cloud, Intelligent Healthcare Unit**
+*July–November 2022*
+Supported solution design for healthcare data management, electronic medical-record quality control, clinical decision support, patient services, and hospital operations.
+
+## Teaching and mentoring
+
+As a course assistant at NYU, I supported **Applied Survival Analysis**, **Linear Regression and Modeling**, **Data Management and Statistical Computing**, and **Biostatistics for Public Health**. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation.
+
+[View the NYU mentorship program](https://publichealth.nyu.edu/department/biostatistics/pipelines-quantitative-aging-research-summer-program/2023-mentors){.text-link}
+
+## Leadership and professional service
+
+- HDS Program Student Representative, GWU School of Public Health · 2026–present
+- ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop volunteer · 2025
+- International Chinese Statistical Association volunteer · 2026
+- GWU team leader, ENAR DataFest · 2026
+
+## Selected honors
+
+- GWSPH Research Day, Biostatistics & Bioinformatics Prize (Doctoral Research) · 2026
+- ENAR DataFest Winner · 2026
+- NYU Thesis Recognition Award, Innovative Topic or Approach · 2024
+- NYU GPH Biostatistics Community Recognition Award · 2024
+- National Scholarship, China · 2019
+
+## Technical tools
+
+<div class="tool-list" aria-label="Technical tools"><span>R</span><span>Python</span><span>SQL</span><span>SAS</span><span>High-performance computing</span><span>AWS</span><span>Google Colab</span><span>EAST</span><span>ArcGIS Pro</span></div>
