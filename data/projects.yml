@@ -2,7 +2,7 @@ featured:
   - id: missing-data
     title: "Functional Regression-Based Multiple Imputation"
     type: "Methodological research"
-    methods: ["Functional multiple imputation", "Simulation"]
+    methods: ["Inference", "Missing data", "Simulation"]
   - id: datafest-multiomics
     title: "Multi-Omics Survival Prediction in Breast Cancer"
     type: "Competition project"
