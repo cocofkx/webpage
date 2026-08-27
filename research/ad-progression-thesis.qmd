@@ -58,8 +58,13 @@ The project demonstrated a workflow for comparing autopsy-derived pseudo-longitu
 
 ## Outputs
 
-<div class="output-panel"><a href="https://publichealth.nyu.edu/department/biostatistics/current-students-and-alumni/biostatistics-student-theses"><strong>View NYU thesis recognition</strong><span>Innovative topic or approach · Class of 2024</span></a><div><strong>Thesis slides</strong><span class="coming-soon">Private source; public PDF not posted</span></div></div>
+<div class="output-list">
+<a class="output-link-card" href="https://publichealth.nyu.edu/department/biostatistics/current-students-and-alumni/biostatistics-student-theses?id=class-of-2024">
+<strong>NYU Thesis Recognition Award</strong>
+<span>Innovative Topic or Approach · Class of 2024</span>
+</a>
+</div>
 
 ## Reproducibility and availability
 
-The public page presents the study design and acknowledged limitations without redistributing NACC or ADNI data or the private thesis deck. No validated prediction tool is offered.
+This page presents the study design and acknowledged limitations without redistributing NACC or ADNI data. No validated prediction tool is offered.

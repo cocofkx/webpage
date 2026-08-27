@@ -20,7 +20,7 @@ A longitudinal design with time-updated information can better represent annual 
 
 ## My contribution
 
-I contributed as a co-author. The publication and résumé do not assign a more specific individual contribution, so no finer-grained role is claimed here.
+I contributed to the acquisition, analysis, or interpretation of data; manuscript drafting; and critical revision of the manuscript.
 
 ## Data and study design
 
@@ -44,7 +44,12 @@ The authors noted limitations in diagnostic accuracy for dementia subtypes and t
 
 ## Outputs
 
-<div class="output-panel"><a href="https://doi.org/10.1038/s41541-024-00841-z"><strong>Read the publication</strong><span>npj Vaccines · Open access</span></a></div>
+<div class="output-list">
+<a class="output-link-card" href="https://doi.org/10.1038/s41541-024-00841-z">
+<strong>Peer-reviewed publication</strong>
+<span>npj Vaccines · Open access</span>
+</a>
+</div>
 
 ## Reproducibility and availability
 

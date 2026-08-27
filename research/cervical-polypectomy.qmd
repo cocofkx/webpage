@@ -1,15 +1,15 @@
 ---
 title: "Cervical Polypectomy During Pregnancy"
 subtitle: "Comparison of Surgical and Obstetric Outcomes Between Two Types of Cervical Polypectomy During Pregnancy"
-description: "ENAR 2025 clinical-outcomes poster comparing traditional and vaginoscopy polypectomy."
+description: "Ongoing real-world clinical-outcomes research comparing traditional and vaginoscopy polypectomy during pregnancy."
 toc: true
 ---
 
-<div class="project-hero-meta"><span class="type-pill">Conference poster</span><span class="status-pill">ENAR 2025</span></div>
+<div class="project-hero-meta"><span class="type-pill">Ongoing real-world study</span><span class="status-pill">ENAR 2025 poster</span></div>
 
 ## Overview
 
-This retrospective clinical-outcomes study compared traditional polypectomy with vaginoscopy polypectomy during pregnancy, considering both surgical outcomes and time to preterm birth.
+This ongoing retrospective clinical-outcomes study compares traditional polypectomy with vaginoscopy polypectomy during pregnancy, considering both procedural outcomes and time to preterm birth.
 
 ## Analytical problem
 
@@ -17,15 +17,15 @@ The study asked whether outcomes differed by surgical approach, whether effects 
 
 ## Why it matters
 
-The choice of surgical approach during pregnancy requires attention to both procedural outcomes and obstetric follow-up. Observational comparisons must also account for baseline differences and time-to-event information.
+Traditional forceps-based polypectomy can involve bleeding and discomfort during pregnancy. Vaginoscopy polypectomy is a less-invasive alternative, but its safety and effectiveness relative to traditional surgery—across cervical and decidual polyps—require careful evaluation. The study therefore considers procedural burden and obstetric follow-up together.
 
 ## My contribution
 
-I was the presenting author of the ENAR 2025 poster. The public poster does not assign finer-grained individual responsibilities, so no additional contribution claim is made here.
+I serve as the lead statistician: I designed the statistical analysis plan, collaborate with clinicians at Jiangxi Maternal & Child Health Hospital who collect the confidential real-world data, and conduct the primary statistical analyses. I was also the presenting author of the ENAR 2025 poster.
 
 ## Data and study design
 
-The approved poster describes a retrospective cohort of pregnant patients treated between October 2023 and July 2024 at Jiangxi Maternal & Child Health Hospital. Data included baseline characteristics, surgical measures, postoperative complications, and obstetric follow-up.
+The study uses confidential real-world data from pregnant patients treated at Jiangxi Maternal & Child Health Hospital. The analysis includes baseline characteristics, surgical measures, postoperative complications, and obstetric follow-up. Participant-level data are not distributed through this site.
 
 ## Statistical methods
 
@@ -36,7 +36,7 @@ The approved poster describes a retrospective cohort of pregnant patients treate
 
 ## Results and practical contribution
 
-The poster reported no significant difference in the total count of adverse events between surgical groups. Vaginoscopy polypectomy was associated with shorter procedure time and lower bleeding in selected comparisons, while recurrent bleeding and high white-blood-cell count were associated with preterm-birth risk. These observational findings should not be interpreted as randomized comparative-effectiveness evidence.
+The ENAR poster reported no significant difference in the total count of adverse events between surgical groups. Vaginoscopy polypectomy was associated with shorter procedure time and lower bleeding in selected comparisons, while recurrent bleeding and high white-blood-cell count were associated with preterm-birth risk. These interim observational findings motivate continued analysis; they should not be interpreted as randomized comparative-effectiveness or formal noninferiority evidence.
 
 ## Limitations
 
@@ -44,8 +44,13 @@ The study was retrospective and relatively small. Potential confounding, subgrou
 
 ## Outputs
 
-<div class="output-panel"><a href="../assets/docs/ENAR_2025_Cervical_Polypectomy_Poster.pdf"><strong>View ENAR 2025 poster</strong><span>Approved public PDF</span></a></div>
+<div class="output-list">
+<a class="output-link-card" href="../assets/docs/ENAR_2025_Cervical_Polypectomy_Poster.pdf">
+<strong>ENAR 2025 poster</strong>
+<span>Approved public PDF</span>
+</a>
+</div>
 
 ## Reproducibility and availability
 
-Only the approved conference poster is public. No participant-level data or analysis dataset is distributed.
+Only the approved conference poster is public. The real-world participant-level data and analysis dataset remain confidential.

@@ -11,9 +11,9 @@ My research centers on statistical questions that recur across biomedical applic
 <article class="research-list-card">
 <div class="card-topline"><span class="type-pill">Methodological research</span><span class="status-pill">Ongoing</span></div>
 <h3>Functional Regression-Based Multiple Imputation for Mixed Missing Data</h3>
-<p>Development and simulation-based evaluation of multiple-imputation methods for incomplete functional and scalar variables.</p>
-<div class="card-meta"><div><strong>Methods</strong><span>Functional regression MI · Simulation</span></div><div><strong>Application</strong><span>Mixed clinical and functional biomedical data</span></div></div>
-<div class="output-row"><span>Poster</span><span>Talk</span><span>Award</span><span>Interactive demo</span></div>
+<p>Development, simulation-based evaluation, and real-data application of multiple-imputation methods for incomplete functional and scalar variables.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Inference · Missing data · Simulation</span></div><div><strong>Application</strong><span>Simulation and multimodal clinical/EEG data</span></div></div>
+<div class="output-row"><span>Poster</span><span>JSM paper</span><span>Award</span></div>
 <a class="card-link" href="missing-data.html">View project <span aria-hidden="true">→</span></a>
 </article>
 
@@ -23,8 +23,8 @@ My research centers on statistical questions that recur across biomedical applic
 <article class="research-list-card">
 <div class="card-topline"><span class="type-pill">Peer-reviewed study</span><span class="status-pill status-published">Published</span></div>
 <h3>Survival and Clinical Progression in Barth Syndrome</h3>
-<p>Natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.</p>
-<div class="card-meta"><div><strong>Methods</strong><span>Kaplan–Meier estimation · Cox modeling</span></div><div><strong>Application</strong><span>Barth Syndrome Foundation datasets</span></div></div>
+<p>Real-world natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Kaplan–Meier estimation · Cox modeling</span></div><div><strong>Application</strong><span>BSF real-world cohort and registry</span></div></div>
 <div class="output-row"><span>Publication</span><span>Code</span><span>Analysis plan</span></div>
 <a class="card-link" href="barth-syndrome.html">View project <span aria-hidden="true">→</span></a>
 </article>
@@ -45,10 +45,10 @@ My research centers on statistical questions that recur across biomedical applic
 <a class="card-link" href="ad-progression-thesis.html">View project <span aria-hidden="true">→</span></a>
 </article>
 <article class="research-list-card">
-<div class="card-topline"><span class="type-pill">Conference poster</span><span class="status-pill">Clinical outcomes</span></div>
+<div class="card-topline"><span class="type-pill">Conference poster</span><span class="status-pill">Ongoing</span></div>
 <h3>Cervical Polypectomy During Pregnancy</h3>
 <p>A retrospective comparison of surgical and obstetric outcomes using survival curves and regression modeling.</p>
-<div class="card-meta"><div><strong>Methods</strong><span>Kaplan–Meier curves · Cox regression</span></div><div><strong>Application</strong><span>Pregnancy-related surgical outcomes</span></div></div>
+<div class="card-meta"><div><strong>Methods</strong><span>Kaplan–Meier curves · Cox regression</span></div><div><strong>Application</strong><span>Confidential real-world pregnancy cohort</span></div></div>
 <div class="output-row"><span>ENAR 2025 poster</span></div>
 <a class="card-link" href="cervical-polypectomy.html">View project <span aria-hidden="true">→</span></a>
 </article>
@@ -67,11 +67,11 @@ My research centers on statistical questions that recur across biomedical applic
 <a class="card-link" href="datafest-multiomics.html">View project <span aria-hidden="true">→</span></a>
 </article>
 <article class="research-list-card">
-<div class="card-topline"><span class="type-pill">Ongoing collaborative research</span><span class="status-pill">Public detail limited</span></div>
+<div class="card-topline"><span class="type-pill">Ongoing collaborative research</span><span class="status-pill">Ongoing</span></div>
 <h3>Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis</h3>
-<p>Statistical analysis planning and quality-control assessment for longitudinal biomarker research within DPPOS.</p>
-<div class="card-meta"><div><strong>Methods</strong><span>Longitudinal planning · Biomarker QC</span></div><div><strong>Application</strong><span>MCI and AD/ADRD biomarkers in type 2 diabetes</span></div></div>
-<div class="output-row"><span>Ongoing</span><span>Conceptual workflow</span></div>
+<p>Statistical analysis planning and quality-control assessment for longitudinal proteomic and extracellular-vesicle biomarker research.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Proteomic analysis · Biomarker QC</span></div><div><strong>Application</strong><span>DPPOS longitudinal cohort</span></div></div>
+<div class="output-row"><span>Ongoing collaboration</span></div>
 <a class="card-link" href="biomarker-analytics.html">View project <span aria-hidden="true">→</span></a>
 </article>
 </div>
@@ -82,7 +82,3 @@ My research centers on statistical questions that recur across biomedical applic
 <article><h3>NICHE Program Evaluation</h3><p>Primary biostatistical analysis of aging-care implementation and urban-rural disparities across U.S. hospitals.</p><a href="../assets/docs/Howard_Meyers_2024_NICHE_Poster.pdf">View conference poster</a></article>
 <article><h3>Stronger Together Peer Mentoring</h3><p>Implementation-science collaboration evaluating feasibility and adaptability of peer support for cancer patients in Viet Nam.</p><a href="../assets/docs/IPOS_2024_Stronger_Together_Poster.pdf">View conference poster</a></article>
 </div>
-
-## Additional Publications & Presentations
-
-**Low-intensity pulsed ultrasound in postoperative fracture healing: Current research landscape and hotspot analysis.** Co-author; research-landscape publication in the *Asian Journal of Surgery* (2025). [Read publication](https://doi.org/10.1016/j.asjsur.2025.06.198).

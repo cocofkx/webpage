@@ -8,7 +8,7 @@ toc: true
 
 ## Overview
 
-This study characterized survival, mortality risk, and clinical manifestations across the lifespan for Barth syndrome, an ultra-rare, life-limiting genetic disorder. It combined the Barth Syndrome Foundation's larger intake dataset with its longitudinal patient/caregiver registry.
+This real-world natural-history study characterized survival, mortality risk, and clinical manifestations across the lifespan for Barth syndrome, an ultra-rare, life-limiting genetic disorder. It combined the Barth Syndrome Foundation's larger intake dataset with its longitudinal patient/caregiver registry.
 
 ## Research problem
 
@@ -16,7 +16,7 @@ Formal analyses of Barth syndrome survival and clinical progression have been li
 
 ## Why it matters
 
-Natural-history evidence can help clinical collaborators recognize periods of elevated risk, understand how manifestations change with age, and identify priorities for care and future research—while keeping uncertainty visible.
+We analyzed the largest and most detailed available cohort of patients with suspected or confirmed Barth syndrome assembled to date, representing all deceased and living cases known to the Barth Syndrome Foundation at the time of analysis. This real-world evidence can help collaborators recognize periods of elevated risk, understand how manifestations change with age, and identify priorities for care and future research.
 
 ## My contribution
 
@@ -40,7 +40,7 @@ Two related cohorts were analyzed:
 
 ## Results and practical contribution
 
-The peer-reviewed publication provides the most comprehensive longitudinal assessment of Barth syndrome survival and clinical-progression burden to date. The study identified early childhood as a period of substantial mortality risk and described increasing clinical burden across the lifespan. Results are reported with cohort-specific caveats rather than treated as population-certainty estimates.
+The study identified early childhood as a period of substantial mortality risk and described increasing clinical burden across the lifespan. By pairing broad case ascertainment with a more detailed longitudinal registry, the analysis provides a stronger empirical foundation for clinical discussion and future natural-history research while keeping cohort-specific uncertainty visible.
 
 ## Limitations
 
@@ -48,12 +48,17 @@ The larger intake cohort is susceptible to survival and ascertainment bias becau
 
 ## Outputs
 
-<div class="output-panel">
-<a href="https://doi.org/10.1002/jimd.70189"><strong>Read the publication</strong><span>Journal of Inherited Metabolic Disease · Open access</span></a>
-<a href="https://github.com/cocofkx/BTHS-Survival"><strong>View analysis code</strong><span>Public GitHub repository</span></a>
-<a href="https://osf.io/5wf4m"><strong>View statistical analysis plan</strong><span>OSF preregistration</span></a>
+<div class="output-list">
+<a class="output-link-card" href="https://doi.org/10.1002/jimd.70189">
+<strong>Peer-reviewed publication</strong>
+<span>Journal of Inherited Metabolic Disease · Open access</span>
+</a>
+<a class="output-link-card" href="https://github.com/cocofkx/BTHS-Survival">
+<strong>Analysis code</strong>
+<span>Public GitHub repository</span>
+</a>
 </div>
 
 ## Reproducibility and availability
 
-The public repository links the statistical plan and R analysis code. Participant-level registry data are not published through this portfolio.
+The public repository provides the R analysis code. Participant-level registry data are not published through this portfolio.

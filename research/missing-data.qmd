@@ -8,7 +8,7 @@ toc: true
 
 ## Overview
 
-I am developing extensions of regression-based multiple imputation for studies that contain both scalar measurements and functional observations such as neuroimaging, fMRI, or EEG trajectories. The work adds a functional-principal-component-regression approach for imputing missing scalar variables within the fregMICE framework and evaluates the method through large-scale simulation.
+I am developing extensions of regression-based multiple imputation for studies that contain both scalar measurements and functional observations such as neuroimaging or EEG trajectories. The work adds a functional-principal-components-regression approach for imputing missing scalar variables within the fregMICE framework, evaluates the method through large-scale simulation, and applies the workflow to multimodal clinical and EEG data.
 
 ## Research problem
 
@@ -20,11 +20,11 @@ Biomedical studies increasingly collect densely measured functions alongside dem
 
 ## My contribution
 
-I developed the functional-principal-component-based extension, designed and implemented simulation studies, used GW's Pegasus high-performance computing environment for reproducible large-scale evaluation, and presented the work at GWSPH Research Day 2026.
+I developed the functional-principal-components-based extension, designed and implemented the simulation study, ran reproducible large-scale evaluations on GW's Pegasus high-performance computing environment, and applied the workflow to multimodal clinical and EEG data. I presented the simulation work at GWSPH Research Day 2026 and contributed to the JSM 2026 paper.
 
 ## Data and study design
 
-The current evidence is simulation-based. The approved poster evaluates samples of 100 and 350 under 10%, 20%, and 30% missingness, with scalar-only and mixed-missingness scenarios and both smoother and bumpier functional settings. The JSM abstract also describes an application to a study combining clinical and imaging data; public reporting here remains limited to the approved abstract.
+The methodological evaluation includes samples of 100 and 350 under 10%, 20%, and 30% missingness, with scalar-only and mixed-missingness scenarios and both smoother and bumpier functional settings. The developing workflow is also being applied to multimodal clinical and EEG data from a major-depressive-disorder study.
 
 ## Statistical methods
 
@@ -36,41 +36,29 @@ The current evidence is simulation-based. The approved poster evaluates samples 
 
 ## Results and practical contribution
 
-The approved poster reports that the functional-regression imputation approaches generally tracked the simulated targets more closely than complete-case analysis, while performance became more difficult at higher missingness and near complex functional features. It also identifies sensitivity to the covariance estimator and emphasizes that simulation findings still require confirmation in real-data applications.
+The approved poster reports that the functional-regression imputation approaches generally tracked the simulated targets more closely than complete-case analysis. Performance became more difficult at higher missingness and near complex functional features, and interval performance was sensitive to the covariance estimator. The real-data application extends the work beyond the poster's simulation-only time point; application-specific results are not summarized here before final review.
 
 ## Limitations
 
-Current conclusions are based primarily on designed simulation settings. The range of functional shapes, missing-data mechanisms, covariance estimators, and downstream models cannot represent every biomedical application. Real-data performance and computational scaling require further study.
-
-## Interactive simulation explorer
-
-<div class="notice synthetic-notice"><strong>Demonstration using synthetic data.</strong> Final research results will be added only after review and approval.</div>
-
-<div id="simulation-explorer" class="sim-explorer" data-csv="../data/missing_data_simulation_demo.csv">
-<form class="sim-controls" aria-label="Simulation explorer controls">
-<label>Sample size<select id="sample-size"><option value="100">100</option><option value="350">350</option></select></label>
-<label>Missingness<select id="missing-rate"><option value="10">10%</option><option value="20">20%</option><option value="30">30%</option></select></label>
-<label>Mechanism<select id="missing-mechanism"><option value="MCAR">MCAR</option><option value="MAR">MAR</option></select></label>
-<label>Data type<select id="data-type"><option value="mixed">Mixed functional + scalar</option><option value="scalar">Scalar</option></select></label>
-<label>Metric<select id="metric"><option value="bias">Absolute bias</option><option value="rmse" selected>RMSE</option><option value="coverage">Coverage</option><option value="runtime">Runtime</option></select></label>
-</form>
-<fieldset class="method-controls"><legend>Methods shown</legend><label><input type="checkbox" value="Complete case" checked> Complete case</label><label><input type="checkbox" value="FPCR MI" checked> FPCR MI</label><label><input type="checkbox" value="PFR MI" checked> PFR MI</label></fieldset>
-<div class="chart-wrap"><canvas id="simulation-chart" role="img" aria-label="Interactive chart comparing illustrative method performance"></canvas></div>
-<p id="chart-summary" class="chart-summary" aria-live="polite"></p>
-<details class="table-fallback" open><summary>Accessible data table</summary><div class="table-scroll"><table id="simulation-table"><thead><tr><th>Method</th><th>Bias</th><th>RMSE</th><th>Coverage</th><th>Runtime</th></tr></thead><tbody></tbody></table></div></details>
-</div>
+Simulation scenarios necessarily simplify the range of functional shapes, missing-data mechanisms, covariance structures, and downstream analyses seen in practice. The EEG application provides an important real-data check, but one application cannot establish performance across biomedical settings. Additional sensitivity analyses and external applications remain part of the ongoing work.
 
 ## Outputs
 
-<div class="output-panel">
-<a href="../assets/docs/GW_Research_Day_2026_Poster.pdf"><strong>View GW Research Day poster</strong><span>Approved public PDF</span></a>
-<a href="../assets/docs/JSM_2026_Abstract.pdf"><strong>View JSM 2026 abstract</strong><span>Contributed paper abstract</span></a>
-<a href="https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics"><strong>View Research Day recognition</strong><span>GWSPH departmental award record</span></a>
-<a href="#simulation-explorer"><strong>Explore synthetic simulation</strong><span>Interactive illustrative prototype</span></a>
+<div class="output-list">
+<a class="output-link-card" href="../assets/docs/GW_Research_Day_2026_Poster.pdf">
+<strong>GW Research Day poster</strong>
+<span>Approved public PDF · Doctoral Research prize</span>
+</a>
+<a class="output-link-card" href="https://ww2.amstat.org/meetings/jsm/2026/onlineprogram/session.cfm?id=6988">
+<strong>JSM 2026 session and slides</strong>
+<span>Innovative Methods in Mental Health Statistics · Contributed paper</span>
+</a>
+<a class="output-link-card" href="https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics">
+<strong>GWSPH Research Day recognition</strong>
+<span>Official departmental award record</span>
+</a>
 </div>
 
 ## Reproducibility and availability
 
-The public explorer reads a precomputed CSV and does not run a large simulation in the browser. Synthetic values can later be replaced with an approved aggregate simulation summary without changing the interface. Research code and the final technical appendix are not yet public.
-
-<script src="../assets/js/simulation-explorer.js" defer></script>
+Approved poster and conference materials are linked above. Research code and application data are not distributed through this site.

@@ -20,40 +20,44 @@ Responsible biomarker modeling requires evidence that additional complexity impr
 
 ## My contribution
 
-I served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. The public record supports this leadership role; finer-grained authorship of individual code components is not claimed here.
+I served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. I also created the analytical workflow used to organize and communicate the team's end-to-end approach.
 
 ## Data and study design
 
-The competition used breast-cancer data from The Cancer Genome Atlas. Publicly disclosed inputs included clinical variables, mRNA expression, and DNA methylation. The team compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations.
+The competition used breast-cancer data from The Cancer Genome Atlas, accessed through cBioPortal. Inputs included clinical variables, mRNA expression, DNA methylation, and somatic mutation information. We compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations.
 
 ## Statistical methods
 
-The public description supports a systematic survival-prediction pipeline with preprocessing and quality checks, feature representation, model fitting, validation, and comparison across information sources. Specific model names and the exact final specification are omitted until the final materials are organized and approved.
+The analysis used a nested validation framework to compare feature sets and model families while keeping final testing separate from model development. The workflow below is a web-native reconstruction of the analytical map I created for the team presentation; the confidential slide deck itself is not published.
 
-<div class="process-diagram" role="img" aria-label="Multi-omics survival-prediction pipeline from inputs through final submission">
-<div><span>01</span><strong>Multi-omics inputs</strong><small>Clinical · mRNA · DNA methylation</small></div>
-<div><span>02</span><strong>Preprocessing & quality checks</strong><small>Comparable analysis-ready inputs</small></div>
-<div><span>03</span><strong>Feature representation</strong><small>Clinical, single-omics, multi-omics</small></div>
-<div><span>04</span><strong>Survival-prediction models</strong><small>Candidate specifications compared</small></div>
-<div><span>05</span><strong>Validation & comparison</strong><small>Stability across validation settings</small></div>
-<div><span>06</span><strong>Team submission</strong><small>Interpretation and communication</small></div>
-</div>
+<ol class="workflow-map" aria-label="Multi-omics survival prediction workflow">
+<li><strong>Define cohorts</strong><span>Overall survival cohort and complete multi-omics subset</span></li>
+<li><strong>Create nested splits</strong><span>Held-out test set with repeated outer training and validation folds</span></li>
+<li><strong>Prepare omics features</strong><span>Missingness filtering, imputation, standardization, variance filtering, and correlation pruning</span></li>
+<li><strong>Select features</strong><span>Data-driven Cox screening plus mutation- and GWAS-informed alternatives</span></li>
+<li><strong>Assemble comparisons</strong><span>Clinical-only, single-omics, combined multi-omics, and prior-informed feature sets</span></li>
+<li><strong>Fit and tune models</strong><span>Elastic-net Cox, random survival forest, and DeepSurv</span></li>
+<li><strong>Evaluate prediction</strong><span>Outer-fold C-index and integrated Brier score, followed by held-out testing and risk stratification</span></li>
+<li><strong>Interpret signals</strong><span>Feature importance and exploratory Bayesian survival analysis</span></li>
+</ol>
 
 ## Results and practical contribution
 
-The official GWSPH project description reports occasional gains from omics-based models in some validation settings, but not consistent improvement overall. The main practical lesson was that added model complexity does not automatically yield better prediction or generalizability; validation, uncertainty, and interpretation remained central.
+Clinical-only models generally performed as well as or better than models that added omics data. Among the omics configurations, mRNA tended to add more predictive value than methylation, while prior-informed feature construction did not consistently outperform data-driven selection. No model family dominated every metric. The practical lesson was that biological detail and model complexity do not automatically yield more stable out-of-sample prediction.
 
 ## Limitations
 
-This was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. The available development repository does not represent the final submission and is therefore not presented as definitive project code. The work should not be interpreted as a clinically validated tool.
+This was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. Sample size limited power to distinguish modest performance differences; fold-to-fold variability showed uncertainty; overall survival is a broad endpoint; and feature selection may be unstable in high-dimensional data. Independent external validation would be required before clinical use.
 
 ## Outputs
 
-<div class="output-panel">
-<a href="https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/student-spotlight"><strong>Read the official project feature</strong><span>GWSPH Student Spotlight</span></a>
-<div><strong>Final slides and code</strong><span class="coming-soon">Available after organization and approval</span></div>
+<div class="output-list">
+<a class="output-link-card" href="https://publichealth.gwu.edu/departments/biostatistics-and-bioinformatics/student-spotlight">
+<strong>Official project feature</strong>
+<span>GWSPH Student Spotlight · ENAR DataFest 2026 first place</span>
+</a>
 </div>
 
 ## Reproducibility and availability
 
-The public summary is limited to facts reported by GWSPH and the approved résumé. A mid-competition code repository exists but is not linked because it is incomplete and does not reflect the final version.
+Data and code available after organization and approval.
