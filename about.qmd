@@ -1,39 +1,43 @@
 ---
-title: "Professional Background"
-description: "Education, research experience, teaching, leadership, honors, and technical tools."
+title: "About"
+description: "Kexin Fu's research perspective, collaborative experience, teaching, mentoring, and professional service."
 toc: true
 ---
 
-## Biography
+## My path into biostatistics
 
-I am a PhD researcher in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My work focuses on statistical problems that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. I pair methodological development with simulation, reproducible computation, and close collaboration with clinical and scientific teams.
+I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.
 
-My current work at the GWU Biostatistics Center includes functional regression-based multiple imputation and analysis planning for longitudinal biomarker research within DPPOS. Earlier collaborations at NYU included rare-disease survival research, aging-care implementation, and public-health studies using longitudinal cohort data.
+I am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems.
 
-## Education
+## How I work
 
-<div class="timeline-list">
-<div class="timeline-item"><div class="timeline-date">2024–present</div><div><h3>PhD, Biomedical and Health Data Science</h3><p>Biostatistics track · George Washington University, Milken Institute School of Public Health</p></div></div>
-<div class="timeline-item"><div class="timeline-date">2022–2024</div><div><h3>MS, Biostatistics</h3><p>New York University, School of Global Public Health</p></div></div>
+<div class="about-principles">
+<article><h3>Start with the estimand</h3><p>I clarify the scientific question, target population, outcome, time origin, and comparison before selecting a model.</p></article>
+<article><h3>Make uncertainty visible</h3><p>I use simulation, sensitivity analyses, and transparent limitations to show where conclusions are stable—and where they are not.</p></article>
+<article><h3>Build with collaborators</h3><p>I translate between statistical assumptions and clinical context, develop analysis plans, and communicate results for mixed technical audiences.</p></article>
 </div>
 
-## Selected research and professional experience
+## Collaborative experience
 
-**Part-time Biostatistician, DPPOS Study · GWU Biostatistics Center**
-*October 2024–present*
-Developing functional principal component-based multiple-imputation methods; leading statistical analysis planning for longitudinal proteomic analyses; and evaluating extracellular-vesicle biomarker quality control and downstream analytical impact.
-
-**Part-time Biostatistical Consultant · BC3, New York University**
-*January 2024–November 2025*
-Co-led statistical design and analysis for Barth syndrome survival and clinical-progression research and served as primary biostatistician for a NICHE program evaluation.
-
-**Business Analyst Intern · Baidu AI Cloud, Intelligent Healthcare Unit**
-*July–November 2022*
-Supported solution design for healthcare data management, electronic medical-record quality control, clinical decision support, patient services, and hospital operations.
+<div class="experience-list">
+<article>
+<div class="experience-heading"><h3>Method development and longitudinal biomarkers</h3><span>GWU Biostatistics Center</span></div>
+<p>My current work includes functional principal-components-based multiple imputation, simulation on high-performance computing systems, application to multimodal clinical and EEG data, and statistical planning for longitudinal DPPOS biomarker studies.</p>
+</article>
+<article>
+<div class="experience-heading"><h3>Rare disease and clinical outcomes</h3><span>Collaborative research</span></div>
+<p>I have worked with foundation, physician, and research teams on real-world survival and clinical-progression studies, including Barth syndrome and cervical polypectomy during pregnancy.</p>
+</article>
+<article>
+<div class="experience-heading"><h3>Public health and implementation research</h3><span>NYU and external collaborations</span></div>
+<p>Earlier projects included longitudinal UK Biobank research, aging-care implementation evaluation, tobacco and mental-health research using PATH data, and peer-support implementation research.</p>
+</article>
+</div>
 
 ## Teaching and mentoring
 
-As a course assistant at NYU, I supported **Applied Survival Analysis**, **Linear Regression and Modeling**, **Data Management and Statistical Computing**, and **Biostatistics for Public Health**. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation.
+As a course assistant at NYU, I supported **Applied Survival Analysis**, **Linear Regression and Modeling**, **Data Management and Statistical Computing**, and **Biostatistics for Public Health**. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation. I especially enjoy helping students turn an initial question into an analysis they can explain and defend.
 
 [View the NYU mentorship program](https://publichealth.nyu.edu/department/biostatistics/pipelines-quantitative-aging-research-summer-program/2023-mentors){.text-link}
 
@@ -48,10 +52,10 @@ As a course assistant at NYU, I supported **Applied Survival Analysis**, **Linea
 
 - GWSPH Research Day, Biostatistics & Bioinformatics Prize (Doctoral Research) · 2026
 - ENAR DataFest Winner · 2026
-- NYU Thesis Recognition Award, Innovative Topic or Approach · 2024
+- NYU Thesis Recognition Award, Innovative Topic or Approach · 2024 — *Neuropathological Time-dependent Progression Probability of Alzheimer's Disease: Addressing Underrepresentation and Optimizing Trial Efficiency*
 - NYU GPH Biostatistics Community Recognition Award · 2024
 - National Scholarship, China · 2019
 
-## Technical tools
+## Technical toolkit
 
-<div class="tool-list" aria-label="Technical tools"><span>R</span><span>Python</span><span>SQL</span><span>SAS</span><span>High-performance computing</span><span>AWS</span><span>Google Colab</span><span>EAST</span><span>ArcGIS Pro</span></div>
+<div class="tool-list" aria-label="Technical tools"><span>R</span><span>Python</span><span>SQL</span><span>SAS</span><span>Survival analysis</span><span>Functional data analysis</span><span>Multiple imputation</span><span>High-performance computing</span><span>AWS</span><span>Google Colab</span><span>EAST</span><span>ArcGIS Pro</span></div>

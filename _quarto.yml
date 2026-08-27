@@ -19,8 +19,8 @@ project:
 
 website:
   title: "Kexin Fu"
-  site-url: "https://cocofkx.github.io/webpage/"
-  description: "Research portfolio of Kexin Fu, a PhD researcher in biostatistics and health data science at George Washington University."
+  site-url: ""
+  description: "Research portfolio of Kexin Fu, a PhD candidate in biostatistics and health data science at George Washington University."
   favicon: assets/img/headshot-source.jpeg
   open-graph:
     locale: en_US
@@ -42,9 +42,6 @@ website:
       - text: Résumé
         href: resume.qmd
     right:
-      - icon: envelope
-        href: "mailto:kexin.fu@gwu.edu"
-        aria-label: "Email Kexin Fu"
       - icon: linkedin
         href: "https://www.linkedin.com/in/kexin-fu-5a3354340"
         aria-label: "Kexin Fu on LinkedIn"
@@ -55,8 +52,6 @@ website:
     left: "© 2026 Kexin Fu"
     center: "George Washington University · Washington, DC"
     right:
-      - text: Email
-        href: "mailto:kexin.fu@gwu.edu"
       - text: LinkedIn
         href: "https://www.linkedin.com/in/kexin-fu-5a3354340"
       - text: GitHub

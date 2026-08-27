@@ -1,6 +1,6 @@
 ---
 title: "Kexin Fu"
-description: "PhD researcher developing statistical methods for missing, longitudinal, high-dimensional, and time-to-event data."
+description: "PhD candidate developing statistical methods for missing, longitudinal, high-dimensional, and time-to-event data."
 page-layout: full
 toc: false
 image: assets/img/social-preview.png
@@ -12,14 +12,13 @@ image: assets/img/social-preview.png
 <div class="hero-copy">
 <p class="eyebrow">Biostatistics · Health Data Science</p>
 <h1 id="hero-title">Kexin Fu</h1>
-<p class="hero-role">PhD Researcher in Biostatistics and Health Data Science</p>
+<p class="hero-role">PhD Candidate in Biostatistics and Health Data Science</p>
 <p class="hero-place">George Washington University, Milken Institute School of Public Health · Washington, DC</p>
 <p class="hero-intro">I develop and apply statistical methods for missing, longitudinal, high-dimensional, and time-to-event data. My work combines methodological development, simulation and high-performance computing, predictive modeling, and collaborative biomedical research.</p>
-<p class="opportunity-line">Seeking Summer 2027 PhD-level internships in biostatistics, statistical data science, and quantitative research.</p>
+<p class="opportunity-line">Seeking Summer 2027 PhD-level internships as a biostatistician, statistician, statistical data scientist, or quantitative researcher.</p>
 <div class="button-row" aria-label="Primary links">
 <a class="button button-primary" href="research/index.html">View research</a>
-<a class="button button-secondary" href="resume.html">View résumé</a>
-<a class="button button-quiet" href="mailto:kexin.fu@gwu.edu">Email</a>
+<a class="button button-secondary" href="resume.html">Download résumé</a>
 <a class="button button-quiet" href="https://www.linkedin.com/in/kexin-fu-5a3354340">LinkedIn</a>
 <a class="button button-quiet" href="https://github.com/cocofkx">GitHub</a>
 </div>
@@ -42,8 +41,8 @@ image: assets/img/social-preview.png
 <p class="card-kicker">Methodological research</p>
 <h3>Functional Regression-Based Multiple Imputation</h3>
 <p>Extending multiple imputation to mixed incomplete functional and scalar data.</p>
-<div class="method-row"><span>Functional MI</span><span>Simulation</span></div>
-<p class="evidence-line">GWSPH Research Day prize · JSM 2026</p>
+<div class="method-row"><span>Inference</span><span>Missing data</span><span>Simulation</span></div>
+<p class="evidence-line">GWSPH Research Day prize · JSM 2026 contributed paper</p>
 <a class="card-link" href="research/missing-data.html">View project <span aria-hidden="true">→</span></a>
 </article>
 <article class="project-card featured-award">
@@ -64,13 +63,4 @@ image: assets/img/social-preview.png
 <a class="card-link" href="research/barth-syndrome.html">View project <span aria-hidden="true">→</span></a>
 </article>
 </div>
-</section>
-
-<section class="recognition-band" aria-label="Selected recognition">
-<span class="recognition-label">Selected recognition</span>
-<span>GWSPH Research Day First Place</span>
-<span aria-hidden="true">·</span>
-<strong>ENAR DataFest Winner</strong>
-<span aria-hidden="true">·</span>
-<span>NYU Thesis Recognition Award</span>
 </section>

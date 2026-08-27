@@ -2,7 +2,7 @@
 
 A privacy-conscious Quarto portfolio for Kexin Fu's Summer 2027 search for PhD-level internships in biostatistics, statistical data science, and quantitative research.
 
-The site is project-first rather than résumé-first. It includes six substantive research pages, a cervical-polypectomy project page, approved publications and posters, an interactive synthetic simulation explorer, an HTML résumé, and a sanitized downloadable résumé PDF.
+The site is project-first rather than résumé-first. It includes substantive research pages, approved publications and posters, an About page focused on research perspective and collaboration, and a download-only page for the sanitized public résumé PDF.
 
 ## Required software
 
@@ -10,7 +10,7 @@ The site is project-first rather than résumé-first. It includes six substantiv
 - A current web browser
 - Git, for version control and deployment
 
-No R, Python, Node.js, database, or server is required to render the public website. The simulation explorer uses precomputed CSV data and browser-native JavaScript.
+No R, Python, Node.js, database, or server is required to render the website.
 
 ## Preview and render
 
@@ -34,7 +34,6 @@ quarto render
 - Research pages: `research/`
 - Approved public documents: `assets/docs/`
 - Headshot and public images: `assets/img/`
-- Synthetic interactive-demo data: `data/missing_data_simulation_demo.csv`
 - Missing information and approvals: `CONTENT_TODO.md`
 
 Empty optional URLs in `data/profile.yml` should remain empty until approved. Do not add placeholder URLs.
@@ -63,32 +62,17 @@ Before replacing it, confirm that the PDF excludes phone numbers, exact home/off
 
 Never link directly to `private_sources/`.
 
-## Replacing the synthetic simulation dataset
-
-The interactive explorer reads `data/missing_data_simulation_demo.csv` with these columns:
-
-```text
-sample_size,missing_rate,missing_mechanism,data_type,method,bias,rmse,coverage,runtime
-```
-
-To replace it:
-
-1. Export an approved aggregate summary with the same column names and supported control values.
-2. Preserve the clear synthetic-data notice until every value is approved and the page wording is updated.
-3. Never include participant-level or row-level research data.
-4. Run `quarto render` and test all filter combinations and the table fallback.
-
 ## GitHub Pages deployment
 
-The workflow at `.github/workflows/publish.yml` follows Quarto's GitHub Pages approach. On pushes to `main`, it renders the project and publishes the result to a `gh-pages` branch.
+The website is intentionally offline during review. GitHub Pages has no publishing source, and `.github/workflows/publish.yml` is manual-only so a routine push cannot republish the site.
 
-For the first deployment:
+When the content is approved for a future public launch:
 
-1. Create the `cocofkx/webpage` repository and push the source branch as `main`.
-2. In repository **Settings → Actions → General**, set Workflow permissions to **Read and write permissions**.
-3. Run `quarto publish gh-pages` locally once, or trigger the included workflow and confirm that it creates the `gh-pages` branch.
-4. In **Settings → Pages**, confirm that Pages uses the `gh-pages` branch if GitHub did not detect it automatically.
-5. Verify the expected URL: `https://cocofkx.github.io/webpage/`.
+1. Complete a public-content and confidentiality review.
+2. In repository **Settings → Actions → General**, confirm the required workflow permissions.
+3. Manually run the Quarto Publish workflow.
+4. In **Settings → Pages**, deliberately select the `gh-pages` branch.
+5. Verify every page and linked PDF before sharing the URL.
 
 ## Privacy warning
 
@@ -124,7 +108,7 @@ If the file was pushed, first revoke or rotate any exposed credentials and conta
 1. Add or revise content in the relevant `.qmd` or data file.
 2. Record unresolved facts or approvals in `CONTENT_TODO.md` rather than guessing.
 3. Run `quarto render`.
-4. Check navigation, internal links, mobile layout, and the simulation table fallback.
+4. Check navigation, internal links, output cards, workflow diagrams, and mobile layout.
 5. Search `_site/` for phone numbers, exact addresses, private filenames, and unapproved terms.
 6. Inspect `git status` before committing; confirm that `private_sources/`, `work/`, and `_site/` are absent.
 7. Commit and push only after a public-content review.
