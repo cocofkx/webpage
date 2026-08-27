@@ -1,7 +1,10 @@
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
-name: Quarto Publish (manual only)
+name: Quarto Publish
 
 jobs:
   build-deploy:
