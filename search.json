@@ -319,105 +319,70 @@
     "href": "resume.html",
     "title": "Résumé",
     "section": "",
-    "text": "A concise public résumé highlighting education, research experience, statistical tools, publications, presentations, awards, and leadership. The downloadable version excludes my phone number and any exact address.\n\nDownload public résumé"
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Résumé",
-    "section": "Education",
-    "text": "Education\nGeorge Washington University, Milken Institute School of Public Health · 2024–present PhD in Biomedical and Health Data Science, Biostatistics track\nNew York University, School of Global Public Health · 2022–2024 MS in Biostatistics"
-  },
-  {
-    "objectID": "resume.html#selected-experience",
-    "href": "resume.html#selected-experience",
-    "title": "Résumé",
-    "section": "Selected experience",
-    "text": "Selected experience\nPart-time Biostatistician, DPPOS Study, GWU Biostatistics Center · 2024–present Functional regression-based multiple imputation; longitudinal proteomic analysis planning; extracellular-vesicle biomarker quality control.\nPart-time Biostatistical Consultant, BC3, New York University · 2024–2025 Statistical design and analysis for rare-disease survival research and aging-care implementation evaluation.\nCourse Assistant and Graduate Mentor, New York University · 2023–2024 Supported graduate biostatistics courses and mentored undergraduate aging-research projects."
-  },
-  {
-    "objectID": "resume.html#technical-skills",
-    "href": "resume.html#technical-skills",
-    "title": "Résumé",
-    "section": "Technical skills",
-    "text": "Technical skills\nProgramming: R · Python · SQL · SAS Computing and research tools: HPC Pegasus · AWS · Google Colab · EAST · ArcGIS Pro"
-  },
-  {
-    "objectID": "resume.html#selected-publications",
-    "href": "resume.html#selected-publications",
-    "title": "Résumé",
-    "section": "Selected publications",
-    "text": "Selected publications\n\nFu K, Huang Y, Bowen V, et al. “Survival and Clinical Progression in Barth Syndrome: Insights From the Barth Syndrome Foundation’s Database of 502 Affected Individuals.” Journal of Inherited Metabolic Disease. 2026. Read publication.\nZhao H, Zhou X, Fu K, et al. “Prospective cohort study evaluating the association between influenza vaccination and neurodegenerative diseases.” npj Vaccines. 2024. Read publication.\nWan L, Geng F, Fu K, Chen W. “Low-intensity pulsed ultrasound in postoperative fracture healing: Current research landscape and hotspot analysis.” Asian Journal of Surgery. 2025. Read publication."
-  },
-  {
-    "objectID": "resume.html#selected-presentations-and-awards",
-    "href": "resume.html#selected-presentations-and-awards",
-    "title": "Résumé",
-    "section": "Selected presentations and awards",
-    "text": "Selected presentations and awards\n\nFunctional Regression-Based Multiple Imputation for Mixed Missing Data · GWSPH Research Day poster and prize, 2026\nFunctional Principal Components-Based Multiple Imputation for Functional Data · JSM contributed paper, 2026\nMulti-Omics Survival Prediction in Breast Cancer · ENAR DataFest winning project, 2026\nComparison of Surgical and Obstetric Outcomes Between Two Types of Cervical Polypectomy During Pregnancy · ENAR poster, 2025\nNYU Thesis Recognition Award, Innovative Topic or Approach · 2024"
+    "text": "Public document\n\n\nDownload the public résumé\n\n\nThe public PDF summarizes my education, research experience, statistical work, publications, presentations, awards, and leadership. It excludes my phone number and exact address.\n\nDownload public résumé (PDF)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kexin Fu",
     "section": "",
-    "text": "Biostatistics · Health Data Science\n\n\nKexin Fu\n\n\nPhD Researcher in Biostatistics and Health Data Science\n\n\nGeorge Washington University, Milken Institute School of Public Health · Washington, DC\n\n\nI develop and apply statistical methods for missing, longitudinal, high-dimensional, and time-to-event data. My work combines methodological development, simulation and high-performance computing, predictive modeling, and collaborative biomedical research.\n\n\nSeeking Summer 2027 PhD-level internships in biostatistics, statistical data science, and quantitative research.\n\n\nView research View résumé Email LinkedIn GitHub\n\n\n\n\n\n\n\n\n\n\nSelected work\n\n\nFeatured research\n\n\nSee all research →\n\n\n\n\nMethodological research\n\n\nFunctional Regression-Based Multiple Imputation\n\n\nExtending multiple imputation to mixed incomplete functional and scalar data.\n\n\nFunctional MISimulation\n\n\nGWSPH Research Day prize · JSM 2026\n\nView project →\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition project\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nEvaluating whether high-dimensional omics added stable predictive value beyond clinical information.\n\n\nSurvival predictionMulti-omics\n\n\nGWU team leader · First place\n\nView project →\n\n\n\nPeer-reviewed study\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nRare-disease natural-history research spanning survival and clinical progression.\n\n\nSurvival analysisNatural history\n\n\nJournal of Inherited Metabolic Disease · 2026\n\nView project →\n\n\n\n\nSelected recognition GWSPH Research Day First Place · ENAR DataFest Winner · NYU Thesis Recognition Award"
+    "text": "Biostatistics · Health Data Science\n\n\nKexin Fu\n\n\nPhD Candidate in Biostatistics and Health Data Science\n\n\nGeorge Washington University, Milken Institute School of Public Health · Washington, DC\n\n\nI develop and apply statistical methods for missing, longitudinal, high-dimensional, and time-to-event data. My work combines methodological development, simulation and high-performance computing, predictive modeling, and collaborative biomedical research.\n\n\nSeeking Summer 2027 PhD-level internships as a biostatistician, statistician, statistical data scientist, or quantitative researcher.\n\n\nView research Download résumé LinkedIn GitHub\n\n\n\n\n\n\n\n\n\n\nSelected work\n\n\nFeatured research\n\n\nSee all research →\n\n\n\n\nMethodological research\n\n\nFunctional Regression-Based Multiple Imputation\n\n\nExtending multiple imputation to mixed incomplete functional and scalar data.\n\n\nInferenceMissing dataSimulation\n\n\nGWSPH Research Day prize · JSM 2026 contributed paper\n\nView project →\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition project\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nEvaluating whether high-dimensional omics added stable predictive value beyond clinical information.\n\n\nSurvival predictionMulti-omics\n\n\nGWU team leader · First place\n\nView project →\n\n\n\nPeer-reviewed study\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nRare-disease natural-history research spanning survival and clinical progression.\n\n\nSurvival analysisNatural history\n\n\nJournal of Inherited Metabolic Disease · 2026\n\nView project →"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Professional Background",
+    "title": "About",
     "section": "",
-    "text": "I am a PhD researcher in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My work focuses on statistical problems that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. I pair methodological development with simulation, reproducible computation, and close collaboration with clinical and scientific teams.\nMy current work at the GWU Biostatistics Center includes functional regression-based multiple imputation and analysis planning for longitudinal biomarker research within DPPOS. Earlier collaborations at NYU included rare-disease survival research, aging-care implementation, and public-health studies using longitudinal cohort data."
+    "text": "I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.\nI am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems."
   },
   {
-    "objectID": "about.html#biography",
-    "href": "about.html#biography",
-    "title": "Professional Background",
+    "objectID": "about.html#my-path-into-biostatistics",
+    "href": "about.html#my-path-into-biostatistics",
+    "title": "About",
     "section": "",
-    "text": "I am a PhD researcher in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My work focuses on statistical problems that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. I pair methodological development with simulation, reproducible computation, and close collaboration with clinical and scientific teams.\nMy current work at the GWU Biostatistics Center includes functional regression-based multiple imputation and analysis planning for longitudinal biomarker research within DPPOS. Earlier collaborations at NYU included rare-disease survival research, aging-care implementation, and public-health studies using longitudinal cohort data."
+    "text": "I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.\nI am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems."
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Professional Background",
-    "section": "Education",
-    "text": "Education\n\n\n\n2024–present\n\n\n\nPhD, Biomedical and Health Data Science\n\n\nBiostatistics track · George Washington University, Milken Institute School of Public Health\n\n\n\n\n\n2022–2024\n\n\n\nMS, Biostatistics\n\n\nNew York University, School of Global Public Health"
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "About",
+    "section": "How I work",
+    "text": "How I work\n\n\n\nStart with the estimand\n\n\nI clarify the scientific question, target population, outcome, time origin, and comparison before selecting a model.\n\n\n\n\nMake uncertainty visible\n\n\nI use simulation, sensitivity analyses, and transparent limitations to show where conclusions are stable—and where they are not.\n\n\n\n\nBuild with collaborators\n\n\nI translate between statistical assumptions and clinical context, develop analysis plans, and communicate results for mixed technical audiences."
   },
   {
-    "objectID": "about.html#selected-research-and-professional-experience",
-    "href": "about.html#selected-research-and-professional-experience",
-    "title": "Professional Background",
-    "section": "Selected research and professional experience",
-    "text": "Selected research and professional experience\nPart-time Biostatistician, DPPOS Study · GWU Biostatistics Center October 2024–present Developing functional principal component-based multiple-imputation methods; leading statistical analysis planning for longitudinal proteomic analyses; and evaluating extracellular-vesicle biomarker quality control and downstream analytical impact.\nPart-time Biostatistical Consultant · BC3, New York University January 2024–November 2025 Co-led statistical design and analysis for Barth syndrome survival and clinical-progression research and served as primary biostatistician for a NICHE program evaluation.\nBusiness Analyst Intern · Baidu AI Cloud, Intelligent Healthcare Unit July–November 2022 Supported solution design for healthcare data management, electronic medical-record quality control, clinical decision support, patient services, and hospital operations."
+    "objectID": "about.html#collaborative-experience",
+    "href": "about.html#collaborative-experience",
+    "title": "About",
+    "section": "Collaborative experience",
+    "text": "Collaborative experience\n\n\n\n\nMethod development and longitudinal biomarkers\n\nGWU Biostatistics Center\n\n\nMy current work includes functional principal-components-based multiple imputation, simulation on high-performance computing systems, application to multimodal clinical and EEG data, and statistical planning for longitudinal DPPOS biomarker studies.\n\n\n\n\n\nRare disease and clinical outcomes\n\nCollaborative research\n\n\nI have worked with foundation, physician, and research teams on real-world survival and clinical-progression studies, including Barth syndrome and cervical polypectomy during pregnancy.\n\n\n\n\n\nPublic health and implementation research\n\nNYU and external collaborations\n\n\nEarlier projects included longitudinal UK Biobank research, aging-care implementation evaluation, tobacco and mental-health research using PATH data, and peer-support implementation research."
   },
   {
     "objectID": "about.html#teaching-and-mentoring",
     "href": "about.html#teaching-and-mentoring",
-    "title": "Professional Background",
+    "title": "About",
     "section": "Teaching and mentoring",
-    "text": "Teaching and mentoring\nAs a course assistant at NYU, I supported Applied Survival Analysis, Linear Regression and Modeling, Data Management and Statistical Computing, and Biostatistics for Public Health. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation.\nView the NYU mentorship program"
+    "text": "Teaching and mentoring\nAs a course assistant at NYU, I supported Applied Survival Analysis, Linear Regression and Modeling, Data Management and Statistical Computing, and Biostatistics for Public Health. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation. I especially enjoy helping students turn an initial question into an analysis they can explain and defend.\nView the NYU mentorship program"
   },
   {
     "objectID": "about.html#leadership-and-professional-service",
     "href": "about.html#leadership-and-professional-service",
-    "title": "Professional Background",
+    "title": "About",
     "section": "Leadership and professional service",
     "text": "Leadership and professional service\n\nHDS Program Student Representative, GWU School of Public Health · 2026–present\nASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop volunteer · 2025\nInternational Chinese Statistical Association volunteer · 2026\nGWU team leader, ENAR DataFest · 2026"
   },
   {
     "objectID": "about.html#selected-honors",
     "href": "about.html#selected-honors",
-    "title": "Professional Background",
+    "title": "About",
     "section": "Selected honors",
-    "text": "Selected honors\n\nGWSPH Research Day, Biostatistics & Bioinformatics Prize (Doctoral Research) · 2026\nENAR DataFest Winner · 2026\nNYU Thesis Recognition Award, Innovative Topic or Approach · 2024\nNYU GPH Biostatistics Community Recognition Award · 2024\nNational Scholarship, China · 2019"
+    "text": "Selected honors\n\nGWSPH Research Day, Biostatistics & Bioinformatics Prize (Doctoral Research) · 2026\nENAR DataFest Winner · 2026\nNYU Thesis Recognition Award, Innovative Topic or Approach · 2024 — Neuropathological Time-dependent Progression Probability of Alzheimer’s Disease: Addressing Underrepresentation and Optimizing Trial Efficiency\nNYU GPH Biostatistics Community Recognition Award · 2024\nNational Scholarship, China · 2019"
   },
   {
-    "objectID": "about.html#technical-tools",
-    "href": "about.html#technical-tools",
-    "title": "Professional Background",
-    "section": "Technical tools",
-    "text": "Technical tools\n\nRPythonSQLSASHigh-performance computingAWSGoogle ColabEASTArcGIS Pro"
+    "objectID": "about.html#technical-toolkit",
+    "href": "about.html#technical-toolkit",
+    "title": "About",
+    "section": "Technical toolkit",
+    "text": "Technical toolkit\n\nRPythonSQLSASSurvival analysisFunctional data analysisMultiple imputationHigh-performance computingAWSGoogle ColabEASTArcGIS Pro"
   },
   {
     "objectID": "research/index.html",
