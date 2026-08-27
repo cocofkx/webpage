@@ -4,14 +4,14 @@
     "href": "research/cervical-polypectomy.html",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "",
-    "text": "Conference posterENAR 2025"
+    "text": "Ongoing real-world studyENAR 2025 poster"
   },
   {
     "objectID": "research/cervical-polypectomy.html#overview",
     "href": "research/cervical-polypectomy.html#overview",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "Overview",
-    "text": "Overview\nThis retrospective clinical-outcomes study compared traditional polypectomy with vaginoscopy polypectomy during pregnancy, considering both surgical outcomes and time to preterm birth."
+    "text": "Overview\nThis ongoing retrospective clinical-outcomes study compares traditional polypectomy with vaginoscopy polypectomy during pregnancy, considering both procedural outcomes and time to preterm birth."
   },
   {
     "objectID": "research/cervical-polypectomy.html#analytical-problem",
@@ -25,21 +25,21 @@
     "href": "research/cervical-polypectomy.html#why-it-matters",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "Why it matters",
-    "text": "Why it matters\nThe choice of surgical approach during pregnancy requires attention to both procedural outcomes and obstetric follow-up. Observational comparisons must also account for baseline differences and time-to-event information."
+    "text": "Why it matters\nTraditional forceps-based polypectomy can involve bleeding and discomfort during pregnancy. Vaginoscopy polypectomy is a less-invasive alternative, but its safety and effectiveness relative to traditional surgery—across cervical and decidual polyps—require careful evaluation. The study therefore considers procedural burden and obstetric follow-up together."
   },
   {
     "objectID": "research/cervical-polypectomy.html#my-contribution",
     "href": "research/cervical-polypectomy.html#my-contribution",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "My contribution",
-    "text": "My contribution\nI was the presenting author of the ENAR 2025 poster. The public poster does not assign finer-grained individual responsibilities, so no additional contribution claim is made here."
+    "text": "My contribution\nI serve as the lead statistician: I designed the statistical analysis plan, collaborate with clinicians at Jiangxi Maternal & Child Health Hospital who collect the confidential real-world data, and conduct the primary statistical analyses. I was also the presenting author of the ENAR 2025 poster."
   },
   {
     "objectID": "research/cervical-polypectomy.html#data-and-study-design",
     "href": "research/cervical-polypectomy.html#data-and-study-design",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "Data and study design",
-    "text": "Data and study design\nThe approved poster describes a retrospective cohort of pregnant patients treated between October 2023 and July 2024 at Jiangxi Maternal & Child Health Hospital. Data included baseline characteristics, surgical measures, postoperative complications, and obstetric follow-up."
+    "text": "Data and study design\nThe study uses confidential real-world data from pregnant patients treated at Jiangxi Maternal & Child Health Hospital. The analysis includes baseline characteristics, surgical measures, postoperative complications, and obstetric follow-up. Participant-level data are not distributed through this site."
   },
   {
     "objectID": "research/cervical-polypectomy.html#statistical-methods",
@@ -53,7 +53,7 @@
     "href": "research/cervical-polypectomy.html#results-and-practical-contribution",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "Results and practical contribution",
-    "text": "Results and practical contribution\nThe poster reported no significant difference in the total count of adverse events between surgical groups. Vaginoscopy polypectomy was associated with shorter procedure time and lower bleeding in selected comparisons, while recurrent bleeding and high white-blood-cell count were associated with preterm-birth risk. These observational findings should not be interpreted as randomized comparative-effectiveness evidence."
+    "text": "Results and practical contribution\nThe ENAR poster reported no significant difference in the total count of adverse events between surgical groups. Vaginoscopy polypectomy was associated with shorter procedure time and lower bleeding in selected comparisons, while recurrent bleeding and high white-blood-cell count were associated with preterm-birth risk. These interim observational findings motivate continued analysis; they should not be interpreted as randomized comparative-effectiveness or formal noninferiority evidence."
   },
   {
     "objectID": "research/cervical-polypectomy.html#limitations",
@@ -67,14 +67,14 @@
     "href": "research/cervical-polypectomy.html#outputs",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "Outputs",
-    "text": "Outputs\n\nView ENAR 2025 posterApproved public PDF"
+    "text": "Outputs\n\n ENAR 2025 poster Approved public PDF"
   },
   {
     "objectID": "research/cervical-polypectomy.html#reproducibility-and-availability",
     "href": "research/cervical-polypectomy.html#reproducibility-and-availability",
     "title": "Cervical Polypectomy During Pregnancy",
     "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nOnly the approved conference poster is public. No participant-level data or analysis dataset is distributed."
+    "text": "Reproducibility and availability\nOnly the approved conference poster is public. The real-world participant-level data and analysis dataset remain confidential."
   },
   {
     "objectID": "research/ad-progression-thesis.html",
@@ -144,14 +144,14 @@
     "href": "research/ad-progression-thesis.html#outputs",
     "title": "Alzheimer’s Disease Progression and Clinical-Trial Design",
     "section": "Outputs",
-    "text": "Outputs\n\nView NYU thesis recognitionInnovative topic or approach · Class of 2024\n\nThesis slidesPrivate source; public PDF not posted"
+    "text": "Outputs\n\n NYU Thesis Recognition Award Innovative Topic or Approach · Class of 2024"
   },
   {
     "objectID": "research/ad-progression-thesis.html#reproducibility-and-availability",
     "href": "research/ad-progression-thesis.html#reproducibility-and-availability",
     "title": "Alzheimer’s Disease Progression and Clinical-Trial Design",
     "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nThe public page presents the study design and acknowledged limitations without redistributing NACC or ADNI data or the private thesis deck. No validated prediction tool is offered."
+    "text": "Reproducibility and availability\nThis page presents the study design and acknowledged limitations without redistributing NACC or ADNI data. No validated prediction tool is offered."
   },
   {
     "objectID": "research/barth-syndrome.html",
@@ -165,7 +165,7 @@
     "href": "research/barth-syndrome.html#overview",
     "title": "Survival and Clinical Progression in Barth Syndrome",
     "section": "Overview",
-    "text": "Overview\nThis study characterized survival, mortality risk, and clinical manifestations across the lifespan for Barth syndrome, an ultra-rare, life-limiting genetic disorder. It combined the Barth Syndrome Foundation’s larger intake dataset with its longitudinal patient/caregiver registry."
+    "text": "Overview\nThis real-world natural-history study characterized survival, mortality risk, and clinical manifestations across the lifespan for Barth syndrome, an ultra-rare, life-limiting genetic disorder. It combined the Barth Syndrome Foundation’s larger intake dataset with its longitudinal patient/caregiver registry."
   },
   {
     "objectID": "research/barth-syndrome.html#research-problem",
@@ -179,7 +179,7 @@
     "href": "research/barth-syndrome.html#why-it-matters",
     "title": "Survival and Clinical Progression in Barth Syndrome",
     "section": "Why it matters",
-    "text": "Why it matters\nNatural-history evidence can help clinical collaborators recognize periods of elevated risk, understand how manifestations change with age, and identify priorities for care and future research—while keeping uncertainty visible."
+    "text": "Why it matters\nWe analyzed the largest and most detailed available cohort of patients with suspected or confirmed Barth syndrome assembled to date, representing all deceased and living cases known to the Barth Syndrome Foundation at the time of analysis. This real-world evidence can help collaborators recognize periods of elevated risk, understand how manifestations change with age, and identify priorities for care and future research."
   },
   {
     "objectID": "research/barth-syndrome.html#my-contribution",
@@ -207,7 +207,7 @@
     "href": "research/barth-syndrome.html#results-and-practical-contribution",
     "title": "Survival and Clinical Progression in Barth Syndrome",
     "section": "Results and practical contribution",
-    "text": "Results and practical contribution\nThe peer-reviewed publication provides the most comprehensive longitudinal assessment of Barth syndrome survival and clinical-progression burden to date. The study identified early childhood as a period of substantial mortality risk and described increasing clinical burden across the lifespan. Results are reported with cohort-specific caveats rather than treated as population-certainty estimates."
+    "text": "Results and practical contribution\nThe study identified early childhood as a period of substantial mortality risk and described increasing clinical burden across the lifespan. By pairing broad case ascertainment with a more detailed longitudinal registry, the analysis provides a stronger empirical foundation for clinical discussion and future natural-history research while keeping cohort-specific uncertainty visible."
   },
   {
     "objectID": "research/barth-syndrome.html#limitations",
@@ -221,14 +221,14 @@
     "href": "research/barth-syndrome.html#outputs",
     "title": "Survival and Clinical Progression in Barth Syndrome",
     "section": "Outputs",
-    "text": "Outputs\n\nRead the publicationJournal of Inherited Metabolic Disease · Open access View analysis codePublic GitHub repository View statistical analysis planOSF preregistration"
+    "text": "Outputs\n\n Peer-reviewed publication Journal of Inherited Metabolic Disease · Open access   Analysis code Public GitHub repository"
   },
   {
     "objectID": "research/barth-syndrome.html#reproducibility-and-availability",
     "href": "research/barth-syndrome.html#reproducibility-and-availability",
     "title": "Survival and Clinical Progression in Barth Syndrome",
     "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nThe public repository links the statistical plan and R analysis code. Participant-level registry data are not published through this portfolio."
+    "text": "Reproducibility and availability\nThe public repository provides the R analysis code. Participant-level registry data are not published through this portfolio."
   },
   {
     "objectID": "research/missing-data.html",
@@ -242,7 +242,7 @@
     "href": "research/missing-data.html#overview",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Overview",
-    "text": "Overview\nI am developing extensions of regression-based multiple imputation for studies that contain both scalar measurements and functional observations such as neuroimaging, fMRI, or EEG trajectories. The work adds a functional-principal-component-regression approach for imputing missing scalar variables within the fregMICE framework and evaluates the method through large-scale simulation."
+    "text": "Overview\nI am developing extensions of regression-based multiple imputation for studies that contain both scalar measurements and functional observations such as neuroimaging or EEG trajectories. The work adds a functional-principal-components-regression approach for imputing missing scalar variables within the fregMICE framework, evaluates the method through large-scale simulation, and applies the workflow to multimodal clinical and EEG data."
   },
   {
     "objectID": "research/missing-data.html#research-problem",
@@ -263,14 +263,14 @@
     "href": "research/missing-data.html#my-contribution",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "My contribution",
-    "text": "My contribution\nI developed the functional-principal-component-based extension, designed and implemented simulation studies, used GW’s Pegasus high-performance computing environment for reproducible large-scale evaluation, and presented the work at GWSPH Research Day 2026."
+    "text": "My contribution\nI developed the functional-principal-components-based extension, designed and implemented the simulation study, ran reproducible large-scale evaluations on GW’s Pegasus high-performance computing environment, and applied the workflow to multimodal clinical and EEG data. I presented the simulation work at GWSPH Research Day 2026 and contributed to the JSM 2026 paper."
   },
   {
     "objectID": "research/missing-data.html#data-and-study-design",
     "href": "research/missing-data.html#data-and-study-design",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Data and study design",
-    "text": "Data and study design\nThe current evidence is simulation-based. The approved poster evaluates samples of 100 and 350 under 10%, 20%, and 30% missingness, with scalar-only and mixed-missingness scenarios and both smoother and bumpier functional settings. The JSM abstract also describes an application to a study combining clinical and imaging data; public reporting here remains limited to the approved abstract."
+    "text": "Data and study design\nThe methodological evaluation includes samples of 100 and 350 under 10%, 20%, and 30% missingness, with scalar-only and mixed-missingness scenarios and both smoother and bumpier functional settings. The developing workflow is also being applied to multimodal clinical and EEG data from a major-depressive-disorder study."
   },
   {
     "objectID": "research/missing-data.html#statistical-methods",
@@ -284,35 +284,28 @@
     "href": "research/missing-data.html#results-and-practical-contribution",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Results and practical contribution",
-    "text": "Results and practical contribution\nThe approved poster reports that the functional-regression imputation approaches generally tracked the simulated targets more closely than complete-case analysis, while performance became more difficult at higher missingness and near complex functional features. It also identifies sensitivity to the covariance estimator and emphasizes that simulation findings still require confirmation in real-data applications."
+    "text": "Results and practical contribution\nThe approved poster reports that the functional-regression imputation approaches generally tracked the simulated targets more closely than complete-case analysis. Performance became more difficult at higher missingness and near complex functional features, and interval performance was sensitive to the covariance estimator. The real-data application extends the work beyond the poster’s simulation-only time point; application-specific results are not summarized here before final review."
   },
   {
     "objectID": "research/missing-data.html#limitations",
     "href": "research/missing-data.html#limitations",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Limitations",
-    "text": "Limitations\nCurrent conclusions are based primarily on designed simulation settings. The range of functional shapes, missing-data mechanisms, covariance estimators, and downstream models cannot represent every biomedical application. Real-data performance and computational scaling require further study."
-  },
-  {
-    "objectID": "research/missing-data.html#interactive-simulation-explorer",
-    "href": "research/missing-data.html#interactive-simulation-explorer",
-    "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
-    "section": "Interactive simulation explorer",
-    "text": "Interactive simulation explorer\n\nDemonstration using synthetic data. Final research results will be added only after review and approval.\n\n\n\nSample size100350 Missingness10%20%30% MechanismMCARMAR Data typeMixed functional + scalarScalar MetricAbsolute biasRMSECoverageRuntime\n\n\nMethods shown Complete case FPCR MI PFR MI\n\n\n\n\n\n\n\n\n\nAccessible data table\n\n\n\n\n\n\nMethod\n\n\nBias\n\n\nRMSE\n\n\nCoverage\n\n\nRuntime"
+    "text": "Limitations\nSimulation scenarios necessarily simplify the range of functional shapes, missing-data mechanisms, covariance structures, and downstream analyses seen in practice. The EEG application provides an important real-data check, but one application cannot establish performance across biomedical settings. Additional sensitivity analyses and external applications remain part of the ongoing work."
   },
   {
     "objectID": "research/missing-data.html#outputs",
     "href": "research/missing-data.html#outputs",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Outputs",
-    "text": "Outputs\n\nView GW Research Day posterApproved public PDF View JSM 2026 abstractContributed paper abstract View Research Day recognitionGWSPH departmental award record Explore synthetic simulationInteractive illustrative prototype"
+    "text": "Outputs\n\n GW Research Day poster Approved public PDF · Doctoral Research prize   JSM 2026 session and slides Innovative Methods in Mental Health Statistics · Contributed paper   GWSPH Research Day recognition Official departmental award record"
   },
   {
     "objectID": "research/missing-data.html#reproducibility-and-availability",
     "href": "research/missing-data.html#reproducibility-and-availability",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nThe public explorer reads a precomputed CSV and does not run a large simulation in the browser. Synthetic values can later be replaced with an approved aggregate simulation summary without changing the interface. Research code and the final technical appendix are not yet public."
+    "text": "Reproducibility and availability\nApproved poster and conference materials are linked above. Research code and application data are not distributed through this site."
   },
   {
     "objectID": "resume.html",
@@ -396,21 +389,21 @@
     "href": "research/index.html#missing-complex-data",
     "title": "Research",
     "section": "Missing & Complex Data",
-    "text": "Missing & Complex Data\n\n\nMethodological researchOngoing\n\n\nFunctional Regression-Based Multiple Imputation for Mixed Missing Data\n\n\nDevelopment and simulation-based evaluation of multiple-imputation methods for incomplete functional and scalar variables.\n\n\n\nMethodsFunctional regression MI · Simulation\n\n\nApplicationMixed clinical and functional biomedical data\n\n\n\nPosterTalkAwardInteractive demo\n\nView project →"
+    "text": "Missing & Complex Data\n\n\nMethodological researchOngoing\n\n\nFunctional Regression-Based Multiple Imputation for Mixed Missing Data\n\n\nDevelopment, simulation-based evaluation, and real-data application of multiple-imputation methods for incomplete functional and scalar variables.\n\n\n\nMethodsInference · Missing data · Simulation\n\n\nApplicationSimulation and multimodal clinical/EEG data\n\n\n\nPosterJSM paperAward\n\nView project →"
   },
   {
     "objectID": "research/index.html#time-to-event-disease-progression",
     "href": "research/index.html#time-to-event-disease-progression",
     "title": "Research",
     "section": "Time-to-Event & Disease Progression",
-    "text": "Time-to-Event & Disease Progression\n\n\n\nPeer-reviewed studyPublished\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nNatural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.\n\n\n\nMethodsKaplan–Meier estimation · Cox modeling\n\n\nApplicationBarth Syndrome Foundation datasets\n\n\n\nPublicationCodeAnalysis plan\n\nView project →\n\n\n\nPeer-reviewed prospective cohort studyPublished\n\n\nInfluenza Vaccination and Neurodegenerative Disease Risk\n\n\nA UK Biobank analysis of time-varying influenza vaccination and incident dementia and Parkinson’s disease.\n\n\n\nMethodsTime-varying Cox regression · Sensitivity analysis\n\n\nApplicationLongitudinal UK Biobank cohort\n\n\n\nPublicationOpen access\n\nView project →\n\n\n\nExploratory master’s thesisAward-recognized\n\n\nAlzheimer’s Disease Progression and Clinical-Trial Design\n\n\nAn exploratory comparison of autopsy-derived pseudo-longitudinal progression probabilities with longitudinal ADNI-3 data.\n\n\n\nMethodsOrdinal logistic modeling · Progression probability\n\n\nApplicationNACC autopsy and ADNI-3 data\n\n\n\nThesisAwardStudy-design visual\n\nView project →\n\n\n\nConference posterClinical outcomes\n\n\nCervical Polypectomy During Pregnancy\n\n\nA retrospective comparison of surgical and obstetric outcomes using survival curves and regression modeling.\n\n\n\nMethodsKaplan–Meier curves · Cox regression\n\n\nApplicationPregnancy-related surgical outcomes\n\n\n\nENAR 2025 poster\n\nView project →"
+    "text": "Time-to-Event & Disease Progression\n\n\n\nPeer-reviewed studyPublished\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nReal-world natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.\n\n\n\nMethodsKaplan–Meier estimation · Cox modeling\n\n\nApplicationBSF real-world cohort and registry\n\n\n\nPublicationCodeAnalysis plan\n\nView project →\n\n\n\nPeer-reviewed prospective cohort studyPublished\n\n\nInfluenza Vaccination and Neurodegenerative Disease Risk\n\n\nA UK Biobank analysis of time-varying influenza vaccination and incident dementia and Parkinson’s disease.\n\n\n\nMethodsTime-varying Cox regression · Sensitivity analysis\n\n\nApplicationLongitudinal UK Biobank cohort\n\n\n\nPublicationOpen access\n\nView project →\n\n\n\nExploratory master’s thesisAward-recognized\n\n\nAlzheimer’s Disease Progression and Clinical-Trial Design\n\n\nAn exploratory comparison of autopsy-derived pseudo-longitudinal progression probabilities with longitudinal ADNI-3 data.\n\n\n\nMethodsOrdinal logistic modeling · Progression probability\n\n\nApplicationNACC autopsy and ADNI-3 data\n\n\n\nThesisAwardStudy-design visual\n\nView project →\n\n\n\nConference posterOngoing\n\n\nCervical Polypectomy During Pregnancy\n\n\nA retrospective comparison of surgical and obstetric outcomes using survival curves and regression modeling.\n\n\n\nMethodsKaplan–Meier curves · Cox regression\n\n\nApplicationConfidential real-world pregnancy cohort\n\n\n\nENAR 2025 poster\n\nView project →"
   },
   {
     "objectID": "research/index.html#high-dimensional-prediction-biomarker-analytics",
     "href": "research/index.html#high-dimensional-prediction-biomarker-analytics",
     "title": "Research",
     "section": "High-Dimensional Prediction & Biomarker Analytics",
-    "text": "High-Dimensional Prediction & Biomarker Analytics\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition projectFirst place\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nA systematic evaluation of clinical, single-omics, and multi-omics approaches to breast-cancer survival prediction.\n\n\n\nMethodsSurvival prediction · Model validation\n\n\nApplicationTCGA breast-cancer data\n\n\n\nAwardOfficial featurePipeline visual\n\nView project →\n\n\n\nOngoing collaborative researchPublic detail limited\n\n\nLongitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis\n\n\nStatistical analysis planning and quality-control assessment for longitudinal biomarker research within DPPOS.\n\n\n\nMethodsLongitudinal planning · Biomarker QC\n\n\nApplicationMCI and AD/ADRD biomarkers in type 2 diabetes\n\n\n\nOngoingConceptual workflow\n\nView project →"
+    "text": "High-Dimensional Prediction & Biomarker Analytics\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition projectFirst place\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nA systematic evaluation of clinical, single-omics, and multi-omics approaches to breast-cancer survival prediction.\n\n\n\nMethodsSurvival prediction · Model validation\n\n\nApplicationTCGA breast-cancer data\n\n\n\nAwardOfficial featurePipeline visual\n\nView project →\n\n\n\nOngoing collaborative researchOngoing\n\n\nLongitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis\n\n\nStatistical analysis planning and quality-control assessment for longitudinal proteomic and extracellular-vesicle biomarker research.\n\n\n\nMethodsProteomic analysis · Biomarker QC\n\n\nApplicationDPPOS longitudinal cohort\n\n\n\nOngoing collaboration\n\nView project →"
   },
   {
     "objectID": "research/index.html#other-selected-collaborations",
@@ -418,13 +411,6 @@
     "title": "Research",
     "section": "Other Selected Collaborations",
     "text": "Other Selected Collaborations\n\n\n\nNICHE Program Evaluation\n\n\nPrimary biostatistical analysis of aging-care implementation and urban-rural disparities across U.S. hospitals.\n\nView conference poster\n\n\n\nStronger Together Peer Mentoring\n\n\nImplementation-science collaboration evaluating feasibility and adaptability of peer support for cancer patients in Viet Nam.\n\nView conference poster"
-  },
-  {
-    "objectID": "research/index.html#additional-publications-presentations",
-    "href": "research/index.html#additional-publications-presentations",
-    "title": "Research",
-    "section": "Additional Publications & Presentations",
-    "text": "Additional Publications & Presentations\nLow-intensity pulsed ultrasound in postoperative fracture healing: Current research landscape and hotspot analysis. Co-author; research-landscape publication in the Asian Journal of Surgery (2025). Read publication."
   },
   {
     "objectID": "research/datafest-multiomics.html",
@@ -459,49 +445,49 @@
     "href": "research/datafest-multiomics.html#my-contribution",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "My contribution",
-    "text": "My contribution\nI served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. The public record supports this leadership role; finer-grained authorship of individual code components is not claimed here."
+    "text": "My contribution\nI served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. I also created the analytical workflow used to organize and communicate the team’s end-to-end approach."
   },
   {
     "objectID": "research/datafest-multiomics.html#data-and-study-design",
     "href": "research/datafest-multiomics.html#data-and-study-design",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "Data and study design",
-    "text": "Data and study design\nThe competition used breast-cancer data from The Cancer Genome Atlas. Publicly disclosed inputs included clinical variables, mRNA expression, and DNA methylation. The team compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations."
+    "text": "Data and study design\nThe competition used breast-cancer data from The Cancer Genome Atlas, accessed through cBioPortal. Inputs included clinical variables, mRNA expression, DNA methylation, and somatic mutation information. We compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations."
   },
   {
     "objectID": "research/datafest-multiomics.html#statistical-methods",
     "href": "research/datafest-multiomics.html#statistical-methods",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "Statistical methods",
-    "text": "Statistical methods\nThe public description supports a systematic survival-prediction pipeline with preprocessing and quality checks, feature representation, model fitting, validation, and comparison across information sources. Specific model names and the exact final specification are omitted until the final materials are organized and approved.\n\n\n01Multi-omics inputsClinical · mRNA · DNA methylation\n\n\n02Preprocessing & quality checksComparable analysis-ready inputs\n\n\n03Feature representationClinical, single-omics, multi-omics\n\n\n04Survival-prediction modelsCandidate specifications compared\n\n\n05Validation & comparisonStability across validation settings\n\n\n06Team submissionInterpretation and communication"
+    "text": "Statistical methods\nThe analysis used a nested validation framework to compare feature sets and model families while keeping final testing separate from model development. The workflow below is a web-native reconstruction of the analytical map I created for the team presentation; the confidential slide deck itself is not published.\n\n\nDefine cohortsOverall survival cohort and complete multi-omics subset\n\n\nCreate nested splitsHeld-out test set with repeated outer training and validation folds\n\n\nPrepare omics featuresMissingness filtering, imputation, standardization, variance filtering, and correlation pruning\n\n\nSelect featuresData-driven Cox screening plus mutation- and GWAS-informed alternatives\n\n\nAssemble comparisonsClinical-only, single-omics, combined multi-omics, and prior-informed feature sets\n\n\nFit and tune modelsElastic-net Cox, random survival forest, and DeepSurv\n\n\nEvaluate predictionOuter-fold C-index and integrated Brier score, followed by held-out testing and risk stratification\n\n\nInterpret signalsFeature importance and exploratory Bayesian survival analysis"
   },
   {
     "objectID": "research/datafest-multiomics.html#results-and-practical-contribution",
     "href": "research/datafest-multiomics.html#results-and-practical-contribution",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "Results and practical contribution",
-    "text": "Results and practical contribution\nThe official GWSPH project description reports occasional gains from omics-based models in some validation settings, but not consistent improvement overall. The main practical lesson was that added model complexity does not automatically yield better prediction or generalizability; validation, uncertainty, and interpretation remained central."
+    "text": "Results and practical contribution\nClinical-only models generally performed as well as or better than models that added omics data. Among the omics configurations, mRNA tended to add more predictive value than methylation, while prior-informed feature construction did not consistently outperform data-driven selection. No model family dominated every metric. The practical lesson was that biological detail and model complexity do not automatically yield more stable out-of-sample prediction."
   },
   {
     "objectID": "research/datafest-multiomics.html#limitations",
     "href": "research/datafest-multiomics.html#limitations",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "Limitations",
-    "text": "Limitations\nThis was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. The available development repository does not represent the final submission and is therefore not presented as definitive project code. The work should not be interpreted as a clinically validated tool."
+    "text": "Limitations\nThis was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. Sample size limited power to distinguish modest performance differences; fold-to-fold variability showed uncertainty; overall survival is a broad endpoint; and feature selection may be unstable in high-dimensional data. Independent external validation would be required before clinical use."
   },
   {
     "objectID": "research/datafest-multiomics.html#outputs",
     "href": "research/datafest-multiomics.html#outputs",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "Outputs",
-    "text": "Outputs\n\nRead the official project featureGWSPH Student Spotlight\n\nFinal slides and codeAvailable after organization and approval"
+    "text": "Outputs\n\n Official project feature GWSPH Student Spotlight · ENAR DataFest 2026 first place"
   },
   {
     "objectID": "research/datafest-multiomics.html#reproducibility-and-availability",
     "href": "research/datafest-multiomics.html#reproducibility-and-availability",
     "title": "Multi-Omics Survival Prediction in Breast Cancer",
     "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nThe public summary is limited to facts reported by GWSPH and the approved résumé. A mid-competition code repository exists but is not linked because it is incomplete and does not reflect the final version."
+    "text": "Reproducibility and availability\nData and code available after organization and approval."
   },
   {
     "objectID": "research/influenza-neurodegeneration.html",
@@ -536,7 +522,7 @@
     "href": "research/influenza-neurodegeneration.html#my-contribution",
     "title": "Influenza Vaccination and Neurodegenerative Disease Risk",
     "section": "My contribution",
-    "text": "My contribution\nI contributed as a co-author. The publication and résumé do not assign a more specific individual contribution, so no finer-grained role is claimed here."
+    "text": "My contribution\nI contributed to the acquisition, analysis, or interpretation of data; manuscript drafting; and critical revision of the manuscript."
   },
   {
     "objectID": "research/influenza-neurodegeneration.html#data-and-study-design",
@@ -571,7 +557,7 @@
     "href": "research/influenza-neurodegeneration.html#outputs",
     "title": "Influenza Vaccination and Neurodegenerative Disease Risk",
     "section": "Outputs",
-    "text": "Outputs\n\nRead the publicationnpj Vaccines · Open access"
+    "text": "Outputs\n\n Peer-reviewed publication npj Vaccines · Open access"
   },
   {
     "objectID": "research/influenza-neurodegeneration.html#reproducibility-and-availability",
@@ -585,69 +571,34 @@
     "href": "research/biomarker-analytics.html",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
     "section": "",
-    "text": "Ongoing collaborative researchPublic description limited"
+    "text": "Ongoing collaborative researchDPPOS"
   },
   {
     "objectID": "research/biomarker-analytics.html#overview",
     "href": "research/biomarker-analytics.html#overview",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
     "section": "Overview",
-    "text": "Overview\nWithin the DPPOS study at the GWU Biostatistics Center, I contribute to longitudinal proteomic analysis planning and extracellular-vesicle biomarker quality-control assessment related to MCI and AD/ADRD research in type 2 diabetes."
-  },
-  {
-    "objectID": "research/biomarker-analytics.html#analytical-problem",
-    "href": "research/biomarker-analytics.html#analytical-problem",
-    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Analytical problem",
-    "text": "Analytical problem\nBiomarker quality-control decisions can change downstream analytic samples, measurement distributions, and the interpretation of associations. Longitudinal biomarker work also requires a statistical analysis plan that connects repeated measurements, covariate timing, missingness, and sensitivity analyses."
-  },
-  {
-    "objectID": "research/biomarker-analytics.html#why-it-matters",
-    "href": "research/biomarker-analytics.html#why-it-matters",
-    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Why it matters",
-    "text": "Why it matters\nMaking quality-control consequences explicit before interpreting downstream models strengthens reproducibility and helps collaborators distinguish biological signals from analytical artifacts."
+    "text": "Overview\nWithin the DPPOS study at the GWU Biostatistics Center, I contribute to longitudinal proteomic analyses and extracellular-vesicle biomarker quality-control assessment related to cognitive aging in type 2 diabetes."
   },
   {
     "objectID": "research/biomarker-analytics.html#my-contribution",
     "href": "research/biomarker-analytics.html#my-contribution",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
     "section": "My contribution",
-    "text": "My contribution\nI lead statistical analysis plan development for longitudinal proteomic analyses and evaluate extracellular-vesicle biomarker quality control and its effect on downstream analyses in neuronal and systemic insulin-signaling contexts."
+    "text": "My contribution\nI develop statistical analysis plans for longitudinal proteomic research and evaluate how extracellular-vesicle biomarker quality-control decisions affect downstream analyses."
   },
   {
-    "objectID": "research/biomarker-analytics.html#data-and-study-design",
-    "href": "research/biomarker-analytics.html#data-and-study-design",
+    "objectID": "research/biomarker-analytics.html#study-context-and-data-access",
+    "href": "research/biomarker-analytics.html#study-context-and-data-access",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Data and study design",
-    "text": "Data and study design\nPublic detail is intentionally high-level. The work involves longitudinal biomarker information within DPPOS and research questions related to cognitive impairment and AD/ADRD. Participant-level data, internal variables, sponsor materials, and internal workflow documents are not disclosed."
+    "section": "Study context and data access",
+    "text": "Study context and data access\nThe work uses longitudinal data from the Diabetes Prevention Program Outcomes Study. DPPOS resources are available to qualified researchers by request through the NIDDK Central Repository. Project-specific biomarker data and results are not distributed through this site."
   },
   {
-    "objectID": "research/biomarker-analytics.html#statistical-approach",
-    "href": "research/biomarker-analytics.html#statistical-approach",
+    "objectID": "research/biomarker-analytics.html#current-analytical-focus",
+    "href": "research/biomarker-analytics.html#current-analytical-focus",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Statistical approach",
-    "text": "Statistical approach\nCurrent responsibilities include prespecifying analysis populations and timing, documenting quality-control decisions, planning longitudinal association analyses, and identifying sensitivity analyses that evaluate the impact of biomarker QC.\n\n\n01Biomarker dataApproved analysis inputs\n\n\n02QC assessmentMeasurement and sample checks\n\n\n03Analysis planningLongitudinal estimands and timing\n\n\n04Association analysisPrespecified downstream models\n\n\n05Sensitivity & interpretationAssess QC-dependent conclusions"
-  },
-  {
-    "objectID": "research/biomarker-analytics.html#results-and-limitations",
-    "href": "research/biomarker-analytics.html#results-and-limitations",
-    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Results and limitations",
-    "text": "Results and limitations\nNo preliminary results are reported. The page describes analytical responsibilities, not findings. Public interpretation will remain limited until the study team approves specific outputs and acknowledgments."
-  },
-  {
-    "objectID": "research/biomarker-analytics.html#outputs",
-    "href": "research/biomarker-analytics.html#outputs",
-    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Outputs",
-    "text": "Outputs\n\n\nPublic outputPending study-team review and approval"
-  },
-  {
-    "objectID": "research/biomarker-analytics.html#reproducibility-and-availability",
-    "href": "research/biomarker-analytics.html#reproducibility-and-availability",
-    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nInternal statistical analysis plans, participant-level records, variable names, and research results are not available through this site."
+    "section": "Current analytical focus",
+    "text": "Current analytical focus\nThe ongoing work focuses on prespecifying analysis populations and timing, documenting biomarker quality-control decisions, planning longitudinal association analyses, and evaluating whether conclusions are sensitive to QC choices."
   }
 ]
