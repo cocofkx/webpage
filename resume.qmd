@@ -1,12 +1,12 @@
 ---
 title: "Résumé"
-description: "Download the public résumé of Kexin Fu."
+description: "Download the résumé of Kexin Fu."
 toc: false
 ---
 
 <section class="download-card" aria-labelledby="resume-download-title">
-<p class="eyebrow">Public document</p>
-<h2 id="resume-download-title">Download the public résumé</h2>
-<p>The public PDF summarizes my education, research experience, statistical work, publications, presentations, awards, and leadership. It excludes my phone number and exact address.</p>
-<a class="button button-primary" href="assets/docs/Kexin_Fu_Resume_Public.pdf">Download public résumé (PDF)</a>
+<p class="eyebrow">Résumé PDF</p>
+<h2 id="resume-download-title">Download the résumé</h2>
+<p>The PDF summarizes my education, research experience, statistical work, publications, presentations, awards, and leadership.</p>
+<a class="button button-primary" href="assets/docs/Kexin_Fu_Resume_Public.pdf">Download résumé (PDF)</a>
 </section>
