@@ -277,7 +277,7 @@
     "href": "research/missing-data.html#statistical-methods",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
     "section": "Statistical methods",
-    "text": "Statistical methods\n\nFunctional regression multiple imputation by chained equations (fregMICE)\nFPCR- and penalized-functional-regression approaches for missing scalar variables\nPenalized function-on-function regression for missing functional responses\nRubin’s-rule pooling and comparison of alternative covariance estimators\nSimulation evaluation using bias, error, coverage, interval width, and computation time"
+    "text": "Statistical methods\n\nFunctional regression multiple imputation by chained equations (fregMICE)\nFPCR- and penalized-functional-regression approaches for missing scalar variables\nPenalized function-on-function regression for missing functional responses\nRubin’s-rule pooling and comparison of alternative covariance estimators\nSimulation evaluation using bias, error, coverage, interval width, and computation time\n\nThe workflow below shows how fregMICE moves from data partitioning and variable-by-variable imputation through functional-model selection, convergence, pooling, and downstream inference.\n\n  \n\nfregMICE imputation pipeline created by Kexin Fu. Select the figure to view the workflow at full resolution."
   },
   {
     "objectID": "research/missing-data.html#results-and-practical-contribution",
