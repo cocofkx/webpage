@@ -34,6 +34,15 @@ The methodological evaluation includes samples of 100 and 350 under 10%, 20%, an
 - Rubin's-rule pooling and comparison of alternative covariance estimators
 - Simulation evaluation using bias, error, coverage, interval width, and computation time
 
+The workflow below shows how fregMICE moves from data partitioning and variable-by-variable imputation through functional-model selection, convergence, pooling, and downstream inference.
+
+<figure class="workflow-figure">
+<a href="../assets/img/fregmice-imputation-workflow.png" aria-label="Open the fregMICE imputation workflow at full resolution">
+<img src="../assets/img/fregmice-imputation-workflow.png" alt="Detailed fregMICE imputation pipeline showing initialization, iterative imputation of incomplete scalar and functional variables with FPCR, PFR, and PFFR models, convergence, pooling, performance evaluation, and analytic inference." loading="lazy">
+</a>
+<figcaption>fregMICE imputation pipeline created by Kexin Fu. Select the figure to view the workflow at full resolution.</figcaption>
+</figure>
+
 ## Results and practical contribution
 
 The approved poster reports that the functional-regression imputation approaches generally tracked the simulated targets more closely than complete-case analysis. Performance became more difficult at higher missingness and near complex functional features, and interval performance was sensitive to the covariance estimator. The real-data application extends the work beyond the poster's simulation-only time point; application-specific results are not summarized here before final review.
