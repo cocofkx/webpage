@@ -167,6 +167,14 @@ h3 { color: var(--navy); }
 .workflow-map strong, .workflow-map span { display: block; }
 .workflow-map strong { color: var(--navy); margin-bottom: .35rem; line-height: 1.3; }
 .workflow-map span { color: var(--muted); font-size: .84rem; line-height: 1.45; }
+.workflow-figure { margin: 1.5rem 0 2rem; }
+.workflow-figure a { display: block; background: #fff; border: 1px solid var(--line); box-shadow: 0 10px 26px rgba(23, 50, 77, .07); }
+.workflow-figure img { display: block; width: 100%; height: auto; }
+.workflow-figure figcaption { color: var(--muted); font-size: .8rem; line-height: 1.5; margin-top: .65rem; }
+.workflow-summary { margin: 0 0 2.4rem; }
+.workflow-summary summary { color: var(--teal-dark); cursor: pointer; font-size: .87rem; font-weight: 750; }
+.workflow-summary[open] summary { margin-bottom: .9rem; }
+.workflow-summary .workflow-map { margin-bottom: 0; }
 
 #TOC { border-left: 1px solid var(--line); padding-left: 1rem; }
 .toc-active .nav-link.active { color: var(--teal-dark) !important; border-left-color: var(--teal) !important; }
