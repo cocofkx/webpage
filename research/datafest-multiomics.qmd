@@ -28,7 +28,17 @@ The competition used breast-cancer data from The Cancer Genome Atlas, accessed t
 
 ## Statistical methods
 
-The analysis used a nested validation framework to compare feature sets and model families while keeping final testing separate from model development. The workflow below is a web-native reconstruction of the analytical map I created for the team presentation; the confidential slide deck itself is not published.
+The analysis used a nested validation framework to compare feature sets and model families while keeping final testing separate from model development. I created the analytical workflow below to organize and communicate the team's end-to-end approach.
+
+<figure class="workflow-figure">
+<a href="../assets/img/datafest-2026-analytical-workflow.png" aria-label="Open the DataFest analytical workflow at full resolution">
+<img src="../assets/img/datafest-2026-analytical-workflow.png" alt="Detailed DataFest workflow showing cohort definition, nested data splitting, mutation- and GWAS-informed features, omics preprocessing, supervised feature selection, survival-model tuning, validation, final testing, risk stratification, and exploratory inference." loading="lazy">
+</a>
+<figcaption>End-to-end analytical workflow created by Kexin Fu for the GWU ENAR DataFest 2026 project. Select the figure to view it at full resolution.</figcaption>
+</figure>
+
+<details class="workflow-summary">
+<summary>View an accessible workflow summary</summary>
 
 <ol class="workflow-map" aria-label="Multi-omics survival prediction workflow">
 <li><strong>Define cohorts</strong><span>Overall survival cohort and complete multi-omics subset</span></li>
@@ -40,6 +50,7 @@ The analysis used a nested validation framework to compare feature sets and mode
 <li><strong>Evaluate prediction</strong><span>Outer-fold C-index and integrated Brier score, followed by held-out testing and risk stratification</span></li>
 <li><strong>Interpret signals</strong><span>Feature importance and exploratory Bayesian survival analysis</span></li>
 </ol>
+</details>
 
 ## Results and practical contribution
 
