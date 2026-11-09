@@ -8,6 +8,7 @@ project:
     - research/index.qmd
     - research/missing-data.qmd
     - research/datafest-multiomics.qmd
+    - research/tobacco-path.qmd
     - research/barth-syndrome.qmd
     - research/influenza-neurodegeneration.qmd
     - research/ad-progression-thesis.qmd

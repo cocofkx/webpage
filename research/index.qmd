@@ -21,6 +21,14 @@ My research centers on statistical questions that recur across biomedical applic
 
 <div class="research-stack">
 <article class="research-list-card">
+<div class="card-topline"><span class="type-pill">Longitudinal research</span></div>
+<h3>E-Cigarette Exposure and Mental Health in the PATH Study</h3>
+<p>Cross-lagged modeling of e-cigarette exposure and mental health across six waves of longitudinal PATH data.</p>
+<div class="card-meta"><div><strong>Methods</strong><span>Longitudinal analysis · Cross-lagged modeling</span></div><div><strong>Application</strong><span>PATH longitudinal data</span></div></div>
+<div class="output-row"><span>Results visual</span><span>Slides</span></div>
+<a class="card-link" href="tobacco-path.html">View project <span aria-hidden="true">→</span></a>
+</article>
+<article class="research-list-card">
 <div class="card-topline"><span class="type-pill">Peer-reviewed study</span><span class="status-pill status-published">Published</span></div>
 <h3>Survival and Clinical Progression in Barth Syndrome</h3>
 <p>Real-world natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.</p>
