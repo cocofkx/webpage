@@ -231,6 +231,188 @@
     "text": "Reproducibility and availability\nThe public repository provides the R analysis code. Participant-level registry data are not published through this portfolio."
   },
   {
+    "objectID": "research/datafest-multiomics.html",
+    "href": "research/datafest-multiomics.html",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "",
+    "text": "ENAR DataFest 2026 WinnerCompetition project"
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#overview",
+    "href": "research/datafest-multiomics.html#overview",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Overview",
+    "text": "Overview\nOur GWU team evaluated whether integrating high-dimensional molecular information could improve breast-cancer survival prediction beyond traditional clinical variables. The project won first place at ENAR DataFest 2026."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#analytical-problem",
+    "href": "research/datafest-multiomics.html#analytical-problem",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Analytical problem",
+    "text": "Analytical problem\nMulti-omics data can add biological detail while also increasing dimensionality, instability, and the opportunity for overfitting. The central question was not simply whether a more complex model could fit the available data, but whether its predictive value held across validation settings."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#why-it-matters",
+    "href": "research/datafest-multiomics.html#why-it-matters",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Why it matters",
+    "text": "Why it matters\nResponsible biomarker modeling requires evidence that additional complexity improves prediction in a repeatable way. Comparing clinical-only, single-omics, and integrated approaches helps separate occasional gains from dependable improvements."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#my-contribution",
+    "href": "research/datafest-multiomics.html#my-contribution",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "My contribution",
+    "text": "My contribution\nI served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. I also created the analytical workflow used to organize and communicate the team’s end-to-end approach."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#data-and-study-design",
+    "href": "research/datafest-multiomics.html#data-and-study-design",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Data and study design",
+    "text": "Data and study design\nThe competition used breast-cancer data from The Cancer Genome Atlas, accessed through cBioPortal. Inputs included clinical variables, mRNA expression, DNA methylation, and somatic mutation information. We compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#statistical-methods",
+    "href": "research/datafest-multiomics.html#statistical-methods",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Statistical methods",
+    "text": "Statistical methods\nThe analysis used a nested validation framework to compare feature sets and model families while keeping final testing separate from model development. I created the analytical workflow below to organize and communicate the team’s end-to-end approach.\n\n  \n\nEnd-to-end analytical workflow created by Kexin Fu for the GWU ENAR DataFest 2026 project. Select the figure to view it at full resolution.\n\n\n\n\nView an accessible workflow summary\n\n\n\nDefine cohortsOverall survival cohort and complete multi-omics subset\n\n\nCreate nested splitsHeld-out test set with repeated outer training and validation folds\n\n\nPrepare omics featuresMissingness filtering, imputation, standardization, variance filtering, and correlation pruning\n\n\nSelect featuresData-driven Cox screening plus mutation- and GWAS-informed alternatives\n\n\nAssemble comparisonsClinical-only, single-omics, combined multi-omics, and prior-informed feature sets\n\n\nFit and tune modelsElastic-net Cox, random survival forest, and DeepSurv\n\n\nEvaluate predictionOuter-fold C-index and integrated Brier score, followed by held-out testing and risk stratification\n\n\nInterpret signalsFeature importance and exploratory Bayesian survival analysis"
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#results-and-practical-contribution",
+    "href": "research/datafest-multiomics.html#results-and-practical-contribution",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Results and practical contribution",
+    "text": "Results and practical contribution\nClinical-only models generally performed as well as or better than models that added omics data. Among the omics configurations, mRNA tended to add more predictive value than methylation, while prior-informed feature construction did not consistently outperform data-driven selection. No model family dominated every metric. The practical lesson was that biological detail and model complexity do not automatically yield more stable out-of-sample prediction."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#limitations",
+    "href": "research/datafest-multiomics.html#limitations",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Limitations",
+    "text": "Limitations\nThis was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. Sample size limited power to distinguish modest performance differences; fold-to-fold variability showed uncertainty; overall survival is a broad endpoint; and feature selection may be unstable in high-dimensional data. Independent external validation would be required before clinical use."
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#outputs",
+    "href": "research/datafest-multiomics.html#outputs",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Outputs",
+    "text": "Outputs\n\n Official project feature GWSPH Student Spotlight · ENAR DataFest 2026 first place"
+  },
+  {
+    "objectID": "research/datafest-multiomics.html#reproducibility-and-availability",
+    "href": "research/datafest-multiomics.html#reproducibility-and-availability",
+    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "section": "Reproducibility and availability",
+    "text": "Reproducibility and availability\nData and code available after organization and approval."
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research centers on statistical questions that recur across biomedical applications: how to use incomplete information responsibly, how to characterize progression over time, and how to evaluate high-dimensional predictors without overstating what they add. Each project below distinguishes its research type, my documented contribution, and the evidence currently available."
+  },
+  {
+    "objectID": "research/index.html#missing-complex-data",
+    "href": "research/index.html#missing-complex-data",
+    "title": "Research",
+    "section": "Missing & Complex Data",
+    "text": "Missing & Complex Data\n\n\nMethodological researchOngoing\n\n\nFunctional Regression-Based Multiple Imputation for Mixed Missing Data\n\n\nDevelopment, simulation-based evaluation, and real-data application of multiple-imputation methods for incomplete functional and scalar variables.\n\n\n\nMethodsInference · Missing data · Simulation\n\n\nApplicationSimulation and multimodal clinical/EEG data\n\n\n\nPosterJSM paperAward\n\nView project →"
+  },
+  {
+    "objectID": "research/index.html#time-to-event-disease-progression",
+    "href": "research/index.html#time-to-event-disease-progression",
+    "title": "Research",
+    "section": "Time-to-Event & Disease Progression",
+    "text": "Time-to-Event & Disease Progression\n\n\n\nLongitudinal research\n\n\nE-Cigarette Exposure and Mental Health in the PATH Study\n\n\nCross-lagged modeling of e-cigarette exposure and mental health across six waves of longitudinal PATH data.\n\n\n\nMethodsLongitudinal analysis · Cross-lagged modeling\n\n\nApplicationPATH longitudinal data\n\n\n\nResults visualSlides\n\nView project →\n\n\n\nPeer-reviewed studyPublished\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nReal-world natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.\n\n\n\nMethodsKaplan–Meier estimation · Cox modeling\n\n\nApplicationBSF real-world cohort and registry\n\n\n\nPublicationCodeAnalysis plan\n\nView project →\n\n\n\nPeer-reviewed prospective cohort studyPublished\n\n\nInfluenza Vaccination and Neurodegenerative Disease Risk\n\n\nA UK Biobank analysis of time-varying influenza vaccination and incident dementia and Parkinson’s disease.\n\n\n\nMethodsTime-varying Cox regression · Sensitivity analysis\n\n\nApplicationLongitudinal UK Biobank cohort\n\n\n\nPublicationOpen access\n\nView project →\n\n\n\nExploratory master’s thesisAward-recognized\n\n\nAlzheimer’s Disease Progression and Clinical-Trial Design\n\n\nAn exploratory comparison of autopsy-derived pseudo-longitudinal progression probabilities with longitudinal ADNI-3 data.\n\n\n\nMethodsOrdinal logistic modeling · Progression probability\n\n\nApplicationNACC autopsy and ADNI-3 data\n\n\n\nThesisAwardStudy-design visual\n\nView project →\n\n\n\nConference posterOngoing\n\n\nCervical Polypectomy During Pregnancy\n\n\nA retrospective comparison of surgical and obstetric outcomes using survival curves and regression modeling.\n\n\n\nMethodsKaplan–Meier curves · Cox regression\n\n\nApplicationConfidential real-world pregnancy cohort\n\n\n\nENAR 2025 poster\n\nView project →"
+  },
+  {
+    "objectID": "research/index.html#high-dimensional-prediction-biomarker-analytics",
+    "href": "research/index.html#high-dimensional-prediction-biomarker-analytics",
+    "title": "Research",
+    "section": "High-Dimensional Prediction & Biomarker Analytics",
+    "text": "High-Dimensional Prediction & Biomarker Analytics\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition projectFirst place\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nA systematic evaluation of clinical, single-omics, and multi-omics approaches to breast-cancer survival prediction.\n\n\n\nMethodsSurvival prediction · Model validation\n\n\nApplicationTCGA breast-cancer data\n\n\n\nAwardOfficial featurePipeline visual\n\nView project →\n\n\n\nOngoing collaborative researchOngoing\n\n\nLongitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis\n\n\nStatistical analysis planning and quality-control assessment for longitudinal proteomic and extracellular-vesicle biomarker research.\n\n\n\nMethodsProteomic analysis · Biomarker QC\n\n\nApplicationDPPOS longitudinal cohort\n\n\n\nOngoing collaboration\n\nView project →"
+  },
+  {
+    "objectID": "research/index.html#other-selected-collaborations",
+    "href": "research/index.html#other-selected-collaborations",
+    "title": "Research",
+    "section": "Other Selected Collaborations",
+    "text": "Other Selected Collaborations\n\n\n\nNICHE Program Evaluation\n\n\nPrimary biostatistical analysis of aging-care implementation and urban-rural disparities across U.S. hospitals.\n\nView conference poster\n\n\n\nStronger Together Peer Mentoring\n\n\nImplementation-science collaboration evaluating feasibility and adaptability of peer support for cancer patients in Viet Nam.\n\nView conference poster"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.\nI am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems."
+  },
+  {
+    "objectID": "about.html#my-path-into-biostatistics",
+    "href": "about.html#my-path-into-biostatistics",
+    "title": "About",
+    "section": "",
+    "text": "I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.\nI am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems."
+  },
+  {
+    "objectID": "about.html#how-i-work",
+    "href": "about.html#how-i-work",
+    "title": "About",
+    "section": "How I work",
+    "text": "How I work\n\n\n\nStart with the estimand\n\n\nI clarify the scientific question, target population, outcome, time origin, and comparison before selecting a model.\n\n\n\n\nMake uncertainty visible\n\n\nI use simulation, sensitivity analyses, and transparent limitations to show where conclusions are stable—and where they are not.\n\n\n\n\nBuild with collaborators\n\n\nI translate between statistical assumptions and clinical context, develop analysis plans, and communicate results for mixed technical audiences."
+  },
+  {
+    "objectID": "about.html#collaborative-experience",
+    "href": "about.html#collaborative-experience",
+    "title": "About",
+    "section": "Collaborative experience",
+    "text": "Collaborative experience\n\n\n\n\nMethod development and longitudinal biomarkers\n\nGWU Biostatistics Center\n\n\nMy current work includes functional principal-components-based multiple imputation, simulation on high-performance computing systems, application to multimodal clinical and EEG data, and statistical planning for longitudinal DPPOS biomarker studies.\n\n\n\n\n\nRare disease and clinical outcomes\n\nCollaborative research\n\n\nI have worked with foundation, physician, and research teams on real-world survival and clinical-progression studies, including Barth syndrome and cervical polypectomy during pregnancy.\n\n\n\n\n\nPublic health and implementation research\n\nNYU and external collaborations\n\n\nEarlier projects included longitudinal UK Biobank research, aging-care implementation evaluation, tobacco and mental-health research using PATH data, and peer-support implementation research.\n\n\n\n\n\nStrategic and market analysis in AI healthcare\n\nBaidu AI Cloud\n\n\nAs a Business Analyst Intern in the Intelligent Healthcare Unit, I conducted strategic and competitive-product research across AI medical imaging, pharmaceutical cloud computing, and traditional Chinese medicine informatics. I synthesized field research, expert interviews, bid-award monitoring, policy, financing, and competitor data into feasibility and recurring market reports; supported healthcare big-data and 5G project evaluations with sales teams; and analyzed an internal staff satisfaction survey to improve the biweekly reporting process."
+  },
+  {
+    "objectID": "about.html#teaching-and-mentoring",
+    "href": "about.html#teaching-and-mentoring",
+    "title": "About",
+    "section": "Teaching and mentoring",
+    "text": "Teaching and mentoring\nAs a course assistant at NYU, I supported Applied Survival Analysis, Linear Regression and Modeling, Data Management and Statistical Computing, and Biostatistics for Public Health. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation. I especially enjoy helping students turn an initial question into an analysis they can explain and defend.\nView the NYU mentorship program"
+  },
+  {
+    "objectID": "about.html#leadership-and-professional-service",
+    "href": "about.html#leadership-and-professional-service",
+    "title": "About",
+    "section": "Leadership and professional service",
+    "text": "Leadership and professional service\n\nHDS Program Student Representative, GWU School of Public Health · 2026–present\nASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop volunteer · 2025\nInternational Chinese Statistical Association volunteer · 2026\nGWU team leader, ENAR DataFest · 2026"
+  },
+  {
+    "objectID": "about.html#selected-honors",
+    "href": "about.html#selected-honors",
+    "title": "About",
+    "section": "Selected honors",
+    "text": "Selected honors\n\nGWSPH Research Day, Biostatistics & Bioinformatics Prize (Doctoral Research) · 2026\nENAR DataFest Winner · 2026\nNYU Thesis Recognition Award, Innovative Topic or Approach · 2024 — Neuropathological Time-dependent Progression Probability of Alzheimer’s Disease: Addressing Underrepresentation and Optimizing Trial Efficiency\nNYU GPH Biostatistics Community Recognition Award · 2024\nNational Scholarship, China · 2019"
+  },
+  {
+    "objectID": "about.html#technical-toolkit",
+    "href": "about.html#technical-toolkit",
+    "title": "About",
+    "section": "Technical toolkit",
+    "text": "Technical toolkit\n\nRPythonSQLSASSurvival analysisFunctional data analysisMultiple imputationHigh-performance computingAWSGoogle ColabEASTArcGIS Pro"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kexin Fu",
+    "section": "",
+    "text": "Biostatistics · Health Data Science\n\n\nKexin Fu\n\n\nPhD Candidate in Biostatistics and Health Data Science\n\n\nGeorge Washington University, Milken Institute School of Public Health · Washington, DC\n\n\nI develop and apply statistical methods for missing, longitudinal, high-dimensional, and time-to-event data. My work combines methodological development, simulation and high-performance computing, predictive modeling, and collaborative biomedical research.\n\n\nSeeking Summer 2027 PhD-level internships as a biostatistician, statistician, statistical data scientist, or quantitative researcher.\n\n\nView research Download résumé LinkedIn GitHub\n\n\n\n\n\n\n\n\n\n\nSelected work\n\n\nFeatured research\n\n\nSee all research →\n\n\n\n\nMethodological research\n\n\nFunctional Regression-Based Multiple Imputation\n\n\nExtending multiple imputation to mixed incomplete functional and scalar data.\n\n\nInferenceMissing dataSimulation\n\n\nGWSPH Research Day prize · JSM 2026 contributed paper\n\nView project →\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition project\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nEvaluating whether high-dimensional omics added stable predictive value beyond clinical information.\n\n\nSurvival predictionMulti-omics\n\n\nGWU team leader · First place\n\nView project →\n\n\n\nPeer-reviewed study\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nRare-disease natural-history research spanning survival and clinical progression.\n\n\nSurvival analysisNatural history\n\n\nJournal of Inherited Metabolic Disease · 2026\n\nView project →"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "Résumé PDF\n\n\nDownload the résumé\n\n\nThe PDF summarizes my education, research experience, statistical work, publications, presentations, awards, and leadership.\n\nDownload résumé (PDF)"
+  },
+  {
     "objectID": "research/missing-data.html",
     "href": "research/missing-data.html",
     "title": "Functional Regression-Based Multiple Imputation for Mixed Missing Data",
@@ -308,186 +490,74 @@
     "text": "Reproducibility and availability\nApproved poster and conference materials are linked above. Research code and application data are not distributed through this site."
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Résumé",
+    "objectID": "research/tobacco-path.html",
+    "href": "research/tobacco-path.html",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "",
-    "text": "Résumé PDF\n\n\nDownload the résumé\n\n\nThe PDF summarizes my education, research experience, statistical work, publications, presentations, awards, and leadership.\n\nDownload résumé (PDF)"
+    "text": "Longitudinal research"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kexin Fu",
-    "section": "",
-    "text": "Biostatistics · Health Data Science\n\n\nKexin Fu\n\n\nPhD Candidate in Biostatistics and Health Data Science\n\n\nGeorge Washington University, Milken Institute School of Public Health · Washington, DC\n\n\nI develop and apply statistical methods for missing, longitudinal, high-dimensional, and time-to-event data. My work combines methodological development, simulation and high-performance computing, predictive modeling, and collaborative biomedical research.\n\n\nSeeking Summer 2027 PhD-level internships as a biostatistician, statistician, statistical data scientist, or quantitative researcher.\n\n\nView research Download résumé LinkedIn GitHub\n\n\n\n\n\n\n\n\n\n\nSelected work\n\n\nFeatured research\n\n\nSee all research →\n\n\n\n\nMethodological research\n\n\nFunctional Regression-Based Multiple Imputation\n\n\nExtending multiple imputation to mixed incomplete functional and scalar data.\n\n\nInferenceMissing dataSimulation\n\n\nGWSPH Research Day prize · JSM 2026 contributed paper\n\nView project →\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition project\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nEvaluating whether high-dimensional omics added stable predictive value beyond clinical information.\n\n\nSurvival predictionMulti-omics\n\n\nGWU team leader · First place\n\nView project →\n\n\n\nPeer-reviewed study\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nRare-disease natural-history research spanning survival and clinical progression.\n\n\nSurvival analysisNatural history\n\n\nJournal of Inherited Metabolic Disease · 2026\n\nView project →"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.\nI am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems."
-  },
-  {
-    "objectID": "about.html#my-path-into-biostatistics",
-    "href": "about.html#my-path-into-biostatistics",
-    "title": "About",
-    "section": "",
-    "text": "I am a PhD candidate in the Biomedical and Health Data Science program, Biostatistics track, at George Washington University. My route into the field began with management science at Ocean University of China, continued through an MS in Biostatistics at New York University, and now centers on methodological and collaborative biomedical research at GW.\nI am most interested in statistical questions that arise when biomedical data are incomplete, functional, longitudinal, high-dimensional, or time-to-event. Across projects, I try to connect careful inference and validation with a clinically meaningful question—not add complexity for its own sake. I also aim to be a strong statistical storyteller: making theory, assumptions, and uncertainty understandable to collaborators and external audiences, and translating them into practical approaches for real-world problems."
-  },
-  {
-    "objectID": "about.html#how-i-work",
-    "href": "about.html#how-i-work",
-    "title": "About",
-    "section": "How I work",
-    "text": "How I work\n\n\n\nStart with the estimand\n\n\nI clarify the scientific question, target population, outcome, time origin, and comparison before selecting a model.\n\n\n\n\nMake uncertainty visible\n\n\nI use simulation, sensitivity analyses, and transparent limitations to show where conclusions are stable—and where they are not.\n\n\n\n\nBuild with collaborators\n\n\nI translate between statistical assumptions and clinical context, develop analysis plans, and communicate results for mixed technical audiences."
-  },
-  {
-    "objectID": "about.html#collaborative-experience",
-    "href": "about.html#collaborative-experience",
-    "title": "About",
-    "section": "Collaborative experience",
-    "text": "Collaborative experience\n\n\n\n\nMethod development and longitudinal biomarkers\n\nGWU Biostatistics Center\n\n\nMy current work includes functional principal-components-based multiple imputation, simulation on high-performance computing systems, application to multimodal clinical and EEG data, and statistical planning for longitudinal DPPOS biomarker studies.\n\n\n\n\n\nRare disease and clinical outcomes\n\nCollaborative research\n\n\nI have worked with foundation, physician, and research teams on real-world survival and clinical-progression studies, including Barth syndrome and cervical polypectomy during pregnancy.\n\n\n\n\n\nPublic health and implementation research\n\nNYU and external collaborations\n\n\nEarlier projects included longitudinal UK Biobank research, aging-care implementation evaluation, tobacco and mental-health research using PATH data, and peer-support implementation research.\n\n\n\n\n\nStrategic and market analysis in AI healthcare\n\nBaidu AI Cloud\n\n\nAs a Business Analyst Intern in the Intelligent Healthcare Unit, I conducted strategic and competitive-product research across AI medical imaging, pharmaceutical cloud computing, and traditional Chinese medicine informatics. I synthesized field research, expert interviews, bid-award monitoring, policy, financing, and competitor data into feasibility and recurring market reports; supported healthcare big-data and 5G project evaluations with sales teams; and analyzed an internal staff satisfaction survey to improve the biweekly reporting process."
-  },
-  {
-    "objectID": "about.html#teaching-and-mentoring",
-    "href": "about.html#teaching-and-mentoring",
-    "title": "About",
-    "section": "Teaching and mentoring",
-    "text": "Teaching and mentoring\nAs a course assistant at NYU, I supported Applied Survival Analysis, Linear Regression and Modeling, Data Management and Statistical Computing, and Biostatistics for Public Health. As a graduate mentor in the 2023 Pipelines into Quantitative Aging Research program, I guided undergraduates through aging-related study design, statistical analysis, and research presentation. I especially enjoy helping students turn an initial question into an analysis they can explain and defend.\nView the NYU mentorship program"
-  },
-  {
-    "objectID": "about.html#leadership-and-professional-service",
-    "href": "about.html#leadership-and-professional-service",
-    "title": "About",
-    "section": "Leadership and professional service",
-    "text": "Leadership and professional service\n\nHDS Program Student Representative, GWU School of Public Health · 2026–present\nASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop volunteer · 2025\nInternational Chinese Statistical Association volunteer · 2026\nGWU team leader, ENAR DataFest · 2026"
-  },
-  {
-    "objectID": "about.html#selected-honors",
-    "href": "about.html#selected-honors",
-    "title": "About",
-    "section": "Selected honors",
-    "text": "Selected honors\n\nGWSPH Research Day, Biostatistics & Bioinformatics Prize (Doctoral Research) · 2026\nENAR DataFest Winner · 2026\nNYU Thesis Recognition Award, Innovative Topic or Approach · 2024 — Neuropathological Time-dependent Progression Probability of Alzheimer’s Disease: Addressing Underrepresentation and Optimizing Trial Efficiency\nNYU GPH Biostatistics Community Recognition Award · 2024\nNational Scholarship, China · 2019"
-  },
-  {
-    "objectID": "about.html#technical-toolkit",
-    "href": "about.html#technical-toolkit",
-    "title": "About",
-    "section": "Technical toolkit",
-    "text": "Technical toolkit\n\nRPythonSQLSASSurvival analysisFunctional data analysisMultiple imputationHigh-performance computingAWSGoogle ColabEASTArcGIS Pro"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research centers on statistical questions that recur across biomedical applications: how to use incomplete information responsibly, how to characterize progression over time, and how to evaluate high-dimensional predictors without overstating what they add. Each project below distinguishes its research type, my documented contribution, and the evidence currently available."
-  },
-  {
-    "objectID": "research/index.html#missing-complex-data",
-    "href": "research/index.html#missing-complex-data",
-    "title": "Research",
-    "section": "Missing & Complex Data",
-    "text": "Missing & Complex Data\n\n\nMethodological researchOngoing\n\n\nFunctional Regression-Based Multiple Imputation for Mixed Missing Data\n\n\nDevelopment, simulation-based evaluation, and real-data application of multiple-imputation methods for incomplete functional and scalar variables.\n\n\n\nMethodsInference · Missing data · Simulation\n\n\nApplicationSimulation and multimodal clinical/EEG data\n\n\n\nPosterJSM paperAward\n\nView project →"
-  },
-  {
-    "objectID": "research/index.html#time-to-event-disease-progression",
-    "href": "research/index.html#time-to-event-disease-progression",
-    "title": "Research",
-    "section": "Time-to-Event & Disease Progression",
-    "text": "Time-to-Event & Disease Progression\n\n\n\nPeer-reviewed studyPublished\n\n\nSurvival and Clinical Progression in Barth Syndrome\n\n\nReal-world natural-history analysis of survival, mortality risk, and clinical manifestations in an ultra-rare genetic disorder.\n\n\n\nMethodsKaplan–Meier estimation · Cox modeling\n\n\nApplicationBSF real-world cohort and registry\n\n\n\nPublicationCodeAnalysis plan\n\nView project →\n\n\n\nPeer-reviewed prospective cohort studyPublished\n\n\nInfluenza Vaccination and Neurodegenerative Disease Risk\n\n\nA UK Biobank analysis of time-varying influenza vaccination and incident dementia and Parkinson’s disease.\n\n\n\nMethodsTime-varying Cox regression · Sensitivity analysis\n\n\nApplicationLongitudinal UK Biobank cohort\n\n\n\nPublicationOpen access\n\nView project →\n\n\n\nExploratory master’s thesisAward-recognized\n\n\nAlzheimer’s Disease Progression and Clinical-Trial Design\n\n\nAn exploratory comparison of autopsy-derived pseudo-longitudinal progression probabilities with longitudinal ADNI-3 data.\n\n\n\nMethodsOrdinal logistic modeling · Progression probability\n\n\nApplicationNACC autopsy and ADNI-3 data\n\n\n\nThesisAwardStudy-design visual\n\nView project →\n\n\n\nConference posterOngoing\n\n\nCervical Polypectomy During Pregnancy\n\n\nA retrospective comparison of surgical and obstetric outcomes using survival curves and regression modeling.\n\n\n\nMethodsKaplan–Meier curves · Cox regression\n\n\nApplicationConfidential real-world pregnancy cohort\n\n\n\nENAR 2025 poster\n\nView project →"
-  },
-  {
-    "objectID": "research/index.html#high-dimensional-prediction-biomarker-analytics",
-    "href": "research/index.html#high-dimensional-prediction-biomarker-analytics",
-    "title": "Research",
-    "section": "High-Dimensional Prediction & Biomarker Analytics",
-    "text": "High-Dimensional Prediction & Biomarker Analytics\n\n\n\nENAR DataFest 2026 Winner\n\n\nCompetition projectFirst place\n\n\nMulti-Omics Survival Prediction in Breast Cancer\n\n\nA systematic evaluation of clinical, single-omics, and multi-omics approaches to breast-cancer survival prediction.\n\n\n\nMethodsSurvival prediction · Model validation\n\n\nApplicationTCGA breast-cancer data\n\n\n\nAwardOfficial featurePipeline visual\n\nView project →\n\n\n\nOngoing collaborative researchOngoing\n\n\nLongitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis\n\n\nStatistical analysis planning and quality-control assessment for longitudinal proteomic and extracellular-vesicle biomarker research.\n\n\n\nMethodsProteomic analysis · Biomarker QC\n\n\nApplicationDPPOS longitudinal cohort\n\n\n\nOngoing collaboration\n\nView project →"
-  },
-  {
-    "objectID": "research/index.html#other-selected-collaborations",
-    "href": "research/index.html#other-selected-collaborations",
-    "title": "Research",
-    "section": "Other Selected Collaborations",
-    "text": "Other Selected Collaborations\n\n\n\nNICHE Program Evaluation\n\n\nPrimary biostatistical analysis of aging-care implementation and urban-rural disparities across U.S. hospitals.\n\nView conference poster\n\n\n\nStronger Together Peer Mentoring\n\n\nImplementation-science collaboration evaluating feasibility and adaptability of peer support for cancer patients in Viet Nam.\n\nView conference poster"
-  },
-  {
-    "objectID": "research/datafest-multiomics.html",
-    "href": "research/datafest-multiomics.html",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
-    "section": "",
-    "text": "ENAR DataFest 2026 WinnerCompetition project"
-  },
-  {
-    "objectID": "research/datafest-multiomics.html#overview",
-    "href": "research/datafest-multiomics.html#overview",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#overview",
+    "href": "research/tobacco-path.html#overview",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Overview",
-    "text": "Overview\nOur GWU team evaluated whether integrating high-dimensional molecular information could improve breast-cancer survival prediction beyond traditional clinical variables. The project won first place at ENAR DataFest 2026."
+    "text": "Overview\nThis project used longitudinal Population Assessment of Tobacco and Health (PATH) data to study the relationship between e-cigarette exposure and internalizing mental health disorders (IMHD) over time."
   },
   {
-    "objectID": "research/datafest-multiomics.html#analytical-problem",
-    "href": "research/datafest-multiomics.html#analytical-problem",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
-    "section": "Analytical problem",
-    "text": "Analytical problem\nMulti-omics data can add biological detail while also increasing dimensionality, instability, and the opportunity for overfitting. The central question was not simply whether a more complex model could fit the available data, but whether its predictive value held across validation settings."
+    "objectID": "research/tobacco-path.html#research-problem",
+    "href": "research/tobacco-path.html#research-problem",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
+    "section": "Research problem",
+    "text": "Research problem\nE-cigarette exposure and mental health can change together over time. A longitudinal approach can examine how measurements at one wave relate to measurements at the next while accounting for the persistence of each measure."
   },
   {
-    "objectID": "research/datafest-multiomics.html#why-it-matters",
-    "href": "research/datafest-multiomics.html#why-it-matters",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#why-it-matters",
+    "href": "research/tobacco-path.html#why-it-matters",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Why it matters",
-    "text": "Why it matters\nResponsible biomarker modeling requires evidence that additional complexity improves prediction in a repeatable way. Comparing clinical-only, single-omics, and integrated approaches helps separate occasional gains from dependable improvements."
+    "text": "Why it matters\nUnderstanding the timing and direction of associations can inform further research on tobacco exposure and mental health. Associations in this observational analysis do not by themselves establish a causal effect."
   },
   {
-    "objectID": "research/datafest-multiomics.html#my-contribution",
-    "href": "research/datafest-multiomics.html#my-contribution",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#my-contribution",
+    "href": "research/tobacco-path.html#my-contribution",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "My contribution",
-    "text": "My contribution\nI served as the GWU team leader, coordinating analytical decisions, model comparison, interpretation, and the final team presentation. I also created the analytical workflow used to organize and communicate the team’s end-to-end approach."
+    "text": "My contribution\nAs a biostatistical consultant at the NYU Biostatistical Collaboration and Consultation Core, I built the longitudinal cross-lagged model for this project."
   },
   {
-    "objectID": "research/datafest-multiomics.html#data-and-study-design",
-    "href": "research/datafest-multiomics.html#data-and-study-design",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#data-and-study-design",
+    "href": "research/tobacco-path.html#data-and-study-design",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Data and study design",
-    "text": "Data and study design\nThe competition used breast-cancer data from The Cancer Genome Atlas, accessed through cBioPortal. Inputs included clinical variables, mRNA expression, DNA methylation, and somatic mutation information. We compared clinical-only models with single-omics, multi-omics, and prior-knowledge-informed feature representations."
+    "text": "Data and study design\nThe study included 13,660 adults with at least two waves of e-cigarette and mental health assessment data across six PATH waves (2013–2021). Current e-cigarette use and internalizing problems measured using the GAIN-SS were assessed over time. The presentation also examines demographic characteristics and other substance use."
   },
   {
-    "objectID": "research/datafest-multiomics.html#statistical-methods",
-    "href": "research/datafest-multiomics.html#statistical-methods",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#statistical-methods",
+    "href": "research/tobacco-path.html#statistical-methods",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Statistical methods",
-    "text": "Statistical methods\nThe analysis used a nested validation framework to compare feature sets and model families while keeping final testing separate from model development. I created the analytical workflow below to organize and communicate the team’s end-to-end approach.\n\n  \n\nEnd-to-end analytical workflow created by Kexin Fu for the GWU ENAR DataFest 2026 project. Select the figure to view it at full resolution.\n\n\n\n\nView an accessible workflow summary\n\n\n\nDefine cohortsOverall survival cohort and complete multi-omics subset\n\n\nCreate nested splitsHeld-out test set with repeated outer training and validation folds\n\n\nPrepare omics featuresMissingness filtering, imputation, standardization, variance filtering, and correlation pruning\n\n\nSelect featuresData-driven Cox screening plus mutation- and GWAS-informed alternatives\n\n\nAssemble comparisonsClinical-only, single-omics, combined multi-omics, and prior-informed feature sets\n\n\nFit and tune modelsElastic-net Cox, random survival forest, and DeepSurv\n\n\nEvaluate predictionOuter-fold C-index and integrated Brier score, followed by held-out testing and risk stratification\n\n\nInterpret signalsFeature importance and exploratory Bayesian survival analysis"
+    "text": "Statistical methods\n\nDescriptive trajectories and population-average logistic regression\nRandom-intercept logistic regression to examine demographic and substance-use associations\nLongitudinal cross-lagged modeling across consecutive waves\nPaths within each measure over time and between the two measures at adjacent waves"
   },
   {
-    "objectID": "research/datafest-multiomics.html#results-and-practical-contribution",
-    "href": "research/datafest-multiomics.html#results-and-practical-contribution",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#results-and-practical-contribution",
+    "href": "research/tobacco-path.html#results-and-practical-contribution",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Results and practical contribution",
-    "text": "Results and practical contribution\nClinical-only models generally performed as well as or better than models that added omics data. Among the omics configurations, mRNA tended to add more predictive value than methylation, while prior-informed feature construction did not consistently outperform data-driven selection. No model family dominated every metric. The practical lesson was that biological detail and model complexity do not automatically yield more stable out-of-sample prediction."
+    "text": "Results and practical contribution\nThe figure below reorganizes the estimates shown in the supplied results diagram. Cross-lagged estimates varied across waves; the figure preserves the reported standard errors and significance markers. The presentation describes these findings as preliminary and identifies an adjusted cross-lagged model as a next step. It does not define the significance thresholds in the results figure.\n\n\n\nCross-lagged and within-measure estimates across five transitions between six PATH waves."
   },
   {
-    "objectID": "research/datafest-multiomics.html#limitations",
-    "href": "research/datafest-multiomics.html#limitations",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#limitations",
+    "href": "research/tobacco-path.html#limitations",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Limitations",
-    "text": "Limitations\nThis was a time-bounded competition analysis rather than a peer-reviewed clinical prediction model. Sample size limited power to distinguish modest performance differences; fold-to-fold variability showed uncertainty; overall survival is a broad endpoint; and feature selection may be unstable in high-dimensional data. Independent external validation would be required before clinical use."
+    "text": "Limitations\nThe analysis is observational, so the reported associations should not be interpreted as causal effects. The cross-lagged results are preliminary; the presentation identifies covariate adjustment and further subgroup analyses as next steps. The significance thresholds are not defined in the figure."
   },
   {
-    "objectID": "research/datafest-multiomics.html#outputs",
-    "href": "research/datafest-multiomics.html#outputs",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
+    "objectID": "research/tobacco-path.html#outputs",
+    "href": "research/tobacco-path.html#outputs",
+    "title": "E-Cigarette Exposure and Mental Health in the PATH Study",
     "section": "Outputs",
-    "text": "Outputs\n\n Official project feature GWSPH Student Spotlight · ENAR DataFest 2026 first place"
-  },
-  {
-    "objectID": "research/datafest-multiomics.html#reproducibility-and-availability",
-    "href": "research/datafest-multiomics.html#reproducibility-and-availability",
-    "title": "Multi-Omics Survival Prediction in Breast Cancer",
-    "section": "Reproducibility and availability",
-    "text": "Reproducibility and availability\nData and code available after organization and approval."
+    "text": "Outputs\n\n Original presentation slides GPH Tobacco Research Lab · May 2024 · PDF"
   },
   {
     "objectID": "research/influenza-neurodegeneration.html",
