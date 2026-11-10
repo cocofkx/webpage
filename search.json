@@ -648,27 +648,48 @@
     "href": "research/biomarker-analytics.html#overview",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
     "section": "Overview",
-    "text": "Overview\nWithin the DPPOS study at the GWU Biostatistics Center, I contribute to longitudinal proteomic analyses and extracellular-vesicle biomarker quality-control assessment related to cognitive aging in type 2 diabetes."
+    "text": "Overview\nAt the GWU Biostatistics Center, I work with clinicians on longitudinal proteomic and extracellular-vesicle (EV) biomarker research in the Diabetes Prevention Program Outcomes Study (DPPOS). This work includes analysis planning, power calculations, biomarker quality control, and reproducible analytical tools."
+  },
+  {
+    "objectID": "research/biomarker-analytics.html#study-context",
+    "href": "research/biomarker-analytics.html#study-context",
+    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
+    "section": "Study context",
+    "text": "Study context\nDPPOS follows participants from the Diabetes Prevention Program to investigate the long-term effects of diabetes prevention. Its current research includes questions about cognitive aging, Alzheimer’s disease, and related dementias. Learn more on the official DPPOS study website."
+  },
+  {
+    "objectID": "research/biomarker-analytics.html#research-questions",
+    "href": "research/biomarker-analytics.html#research-questions",
+    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
+    "section": "Research questions",
+    "text": "Research questions\nOne EV project examines whether markers of insulin signaling are associated with Alzheimer’s disease-related biomarkers and whether dysglycemia modifies that association. The research framework compares neuron-derived EVs with total EVs and considers markers including pTau217, total tau, Aβ42, Aβ40, and the pTau217/Aβ42 ratio. These are research questions rather than established findings from this project.\nThe shared cohort workflow describes 1,690 participants consenting to DPPOS-4, 1,562 completing the first DPPOS-4 visit, and an analytic cohort of 460 with available exosome biomarker measurements. These counts describe the supplied workflow and may change as the study progresses."
   },
   {
     "objectID": "research/biomarker-analytics.html#my-contribution",
     "href": "research/biomarker-analytics.html#my-contribution",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
     "section": "My contribution",
-    "text": "My contribution\nI develop statistical analysis plans for longitudinal proteomic research and evaluate how extracellular-vesicle biomarker quality-control decisions affect downstream analyses."
+    "text": "My contribution\n\nCo-lead statistical analysis plan development and power analyses for longitudinal proteomic biomarker studies, collaborating with clinicians on quality control and downstream analyses.\nDevelop quality-control procedures for EV biomarkers and assess how QC decisions affect analyses of insulin signaling and associations with Alzheimer’s disease and related dementias.\nBuild reproducible R and Shiny workflows for biomarker portfolios."
   },
   {
-    "objectID": "research/biomarker-analytics.html#study-context-and-data-access",
-    "href": "research/biomarker-analytics.html#study-context-and-data-access",
+    "objectID": "research/biomarker-analytics.html#analytical-workflow",
+    "href": "research/biomarker-analytics.html#analytical-workflow",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Study context and data access",
-    "text": "Study context and data access\nThe work uses longitudinal data from the Diabetes Prevention Program Outcomes Study. DPPOS resources are available to qualified researchers by request through the NIDDK Central Repository. Project-specific biomarker data and results are not distributed through this site."
+    "section": "Analytical workflow",
+    "text": "Analytical workflow\nThe EV quality-control workflow screens phosphorylated and total analytes, assesses precision across signal levels, examines technical variability by batch and plate, and evaluates assay controls. It summarizes the resulting QC profile for each analyte and assay form, providing a foundation for downstream analyses and sensitivity assessments.\n\n\n\nFour stages of the extracellular-vesicle biomarker quality-control workflow: screen analytes, assess signal-dependent precision, investigate technical variability, and evaluate controls."
   },
   {
-    "objectID": "research/biomarker-analytics.html#current-analytical-focus",
-    "href": "research/biomarker-analytics.html#current-analytical-focus",
+    "objectID": "research/biomarker-analytics.html#data-access-and-limitations",
+    "href": "research/biomarker-analytics.html#data-access-and-limitations",
     "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
-    "section": "Current analytical focus",
-    "text": "Current analytical focus\nThe ongoing work focuses on prespecifying analysis populations and timing, documenting biomarker quality-control decisions, planning longitudinal association analyses, and evaluating whether conclusions are sensitive to QC choices."
+    "section": "Data access and limitations",
+    "text": "Data access and limitations\nThis is ongoing collaborative research. The materials shared here describe the study framework and workflow; they do not present participant-level data or project-specific analytical findings. DPPOS resources are available to qualified researchers by request through the NIDDK Central Repository."
+  },
+  {
+    "objectID": "research/biomarker-analytics.html#outputs",
+    "href": "research/biomarker-analytics.html#outputs",
+    "title": "Longitudinal Proteomic and Extracellular-Vesicle Biomarker Analysis",
+    "section": "Outputs",
+    "text": "Outputs\n\n Official DPPOS study website Study background and resources"
   }
 ]

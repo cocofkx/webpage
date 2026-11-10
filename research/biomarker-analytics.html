@@ -159,9 +159,12 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#study-context" id="toc-study-context" class="nav-link" data-scroll-target="#study-context">Study context</a></li>
+  <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions">Research questions</a></li>
   <li><a href="#my-contribution" id="toc-my-contribution" class="nav-link" data-scroll-target="#my-contribution">My contribution</a></li>
-  <li><a href="#study-context-and-data-access" id="toc-study-context-and-data-access" class="nav-link" data-scroll-target="#study-context-and-data-access">Study context and data access</a></li>
-  <li><a href="#current-analytical-focus" id="toc-current-analytical-focus" class="nav-link" data-scroll-target="#current-analytical-focus">Current analytical focus</a></li>
+  <li><a href="#analytical-workflow" id="toc-analytical-workflow" class="nav-link" data-scroll-target="#analytical-workflow">Analytical workflow</a></li>
+  <li><a href="#data-access-and-limitations" id="toc-data-access-and-limitations" class="nav-link" data-scroll-target="#data-access-and-limitations">Data access and limitations</a></li>
+  <li><a href="#outputs" id="toc-outputs" class="nav-link" data-scroll-target="#outputs">Outputs</a></li>
   </ul>
 </nav>
     </div>
@@ -197,19 +200,44 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Within the DPPOS study at the GWU Biostatistics Center, I contribute to longitudinal proteomic analyses and extracellular-vesicle biomarker quality-control assessment related to cognitive aging in type 2 diabetes.</p>
+<p>At the GWU Biostatistics Center, I work with clinicians on longitudinal proteomic and extracellular-vesicle (EV) biomarker research in the Diabetes Prevention Program Outcomes Study (DPPOS). This work includes analysis planning, power calculations, biomarker quality control, and reproducible analytical tools.</p>
+</section>
+<section id="study-context" class="level2">
+<h2 class="anchored" data-anchor-id="study-context">Study context</h2>
+<p>DPPOS follows participants from the Diabetes Prevention Program to investigate the long-term effects of diabetes prevention. Its current research includes questions about cognitive aging, Alzheimer’s disease, and related dementias. Learn more on the <a href="https://dppos.bsc.gwu.edu/web/dppos/welcome">official DPPOS study website</a>.</p>
+</section>
+<section id="research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="research-questions">Research questions</h2>
+<p>One EV project examines whether markers of insulin signaling are associated with Alzheimer’s disease-related biomarkers and whether dysglycemia modifies that association. The research framework compares neuron-derived EVs with total EVs and considers markers including pTau217, total tau, Aβ42, Aβ40, and the pTau217/Aβ42 ratio. These are research questions rather than established findings from this project.</p>
+<p>The shared cohort workflow describes 1,690 participants consenting to DPPOS-4, 1,562 completing the first DPPOS-4 visit, and an analytic cohort of 460 with available exosome biomarker measurements. These counts describe the supplied workflow and may change as the study progresses.</p>
 </section>
 <section id="my-contribution" class="level2">
 <h2 class="anchored" data-anchor-id="my-contribution">My contribution</h2>
-<p>I develop statistical analysis plans for longitudinal proteomic research and evaluate how extracellular-vesicle biomarker quality-control decisions affect downstream analyses.</p>
+<ul>
+<li>Co-lead statistical analysis plan development and power analyses for longitudinal proteomic biomarker studies, collaborating with clinicians on quality control and downstream analyses.</li>
+<li>Develop quality-control procedures for EV biomarkers and assess how QC decisions affect analyses of insulin signaling and associations with Alzheimer’s disease and related dementias.</li>
+<li>Build reproducible R and Shiny workflows for biomarker portfolios.</li>
+</ul>
 </section>
-<section id="study-context-and-data-access" class="level2">
-<h2 class="anchored" data-anchor-id="study-context-and-data-access">Study context and data access</h2>
-<p>The work uses longitudinal data from the Diabetes Prevention Program Outcomes Study. DPPOS resources are available to qualified researchers by request through the <a href="https://repository.niddk.nih.gov/studies/dppos/">NIDDK Central Repository</a>. Project-specific biomarker data and results are not distributed through this site.</p>
+<section id="analytical-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="analytical-workflow">Analytical workflow</h2>
+<p>The EV quality-control workflow screens phosphorylated and total analytes, assesses precision across signal levels, examines technical variability by batch and plate, and evaluates assay controls. It summarizes the resulting QC profile for each analyte and assay form, providing a foundation for downstream analyses and sensitivity assessments.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/img/dppos-qc-workflow.svg" class="img-fluid figure-img"></p>
+<figcaption>Four stages of the extracellular-vesicle biomarker quality-control workflow: screen analytes, assess signal-dependent precision, investigate technical variability, and evaluate controls.</figcaption>
+</figure>
+</div>
 </section>
-<section id="current-analytical-focus" class="level2">
-<h2 class="anchored" data-anchor-id="current-analytical-focus">Current analytical focus</h2>
-<p>The ongoing work focuses on prespecifying analysis populations and timing, documenting biomarker quality-control decisions, planning longitudinal association analyses, and evaluating whether conclusions are sensitive to QC choices.</p>
+<section id="data-access-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="data-access-and-limitations">Data access and limitations</h2>
+<p>This is ongoing collaborative research. The materials shared here describe the study framework and workflow; they do not present participant-level data or project-specific analytical findings. DPPOS resources are available to qualified researchers by request through the <a href="https://repository.niddk.nih.gov/studies/dppos/">NIDDK Central Repository</a>.</p>
+</section>
+<section id="outputs" class="level2">
+<h2 class="anchored" data-anchor-id="outputs">Outputs</h2>
+<div class="output-list">
+<p><a class="output-link-card" href="https://dppos.bsc.gwu.edu/web/dppos/welcome"> <strong>Official DPPOS study website</strong> <span>Study background and resources</span> </a></p>
+</div>
 
 
 </section>
